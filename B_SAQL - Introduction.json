@@ -1,0 +1,857 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000dWlxWAE&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002LiA0QAK",
+    "name": "salesforce conferrasoft",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-02-06T08:19:58.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F000000bshuSAA",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities3",
+      "namespace": "SAQL",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 19000,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000bqAFWAY",
+      "lastModifiedDate": "2018-02-06T09:59:32.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000dWlxWAE/files/0FJ7F000000bqAFWAY"
+    }
+  ],
+  "folder": {
+    "id": "00l7F000000VGuVQAW",
+    "label": "New Simhachalam Learning App",
+    "name": "BackupLearning_app",
+    "namespace": "SAQL",
+    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
+  },
+  "id": "0FK7F000000dWlxWAE",
+  "label": "B_SAQL - Introduction",
+  "lastAccessedDate": "2018-02-07T04:16:35.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002LiA0QAK",
+    "name": "salesforce conferrasoft",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-02-06T09:59:28.000Z",
+  "mobileDisabled": false,
+  "name": "B_SAQL_Introduction",
+  "namespace": "SAQL",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-02-06T08:11:06.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1280,
+        "name": "Default",
+        "numColumns": 40,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "ce8d7346-5c22-4242-be0b-0ea0cb6f737d",
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "link_8",
+                "row": 0,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "text_1",
+                "row": 3,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "text_2",
+                "row": 8,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "container_1",
+                "row": 0,
+                "rowspan": 11,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(8, 30, 41)",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "container_6",
+                "row": 11,
+                "rowspan": 55,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_4",
+                "row": 29,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_1",
+                "row": 21,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#F2F6FA",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_5",
+                "row": 12,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "container_2",
+                "row": 14,
+                "rowspan": 51,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 30,
+                "column": 8,
+                "name": "text_4",
+                "row": 16,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 30,
+                "column": 7,
+                "name": "text_5",
+                "row": 22,
+                "rowspan": 28,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_2",
+                "row": 25,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_3",
+                "row": 34,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_6",
+                "row": 39,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_1",
+                "row": 12,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_2",
+                "row": 21,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_3",
+                "row": 25,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_4",
+                "row": 29,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_5",
+                "row": 34,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_6",
+                "row": 39,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_7",
+                "row": 44,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_7",
+                "row": 44,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "link_9",
+                "row": 17,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_11",
+                "row": 49,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_9",
+                "row": 49,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_10",
+                "row": 55,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_8",
+                "row": 55,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "rgb(8, 30, 41)"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Billing_Country_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F000000bshuSAA",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities3",
+            "namespace": "SAQL",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;{{coalesce(cell(static_1.selection, 0, &#92;&quot;grouping&#92;&quot;), cell(static_1.result, 0, &#92;&quot;grouping&#92;&quot;)).asString()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "highColor": "#1674D9",
+            "lowColor": "#C5DBF7",
+            "visualizationType": "choropleth",
+            "theme": "wave",
+            "title": {
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "map": "{{coalesce(cell(static_1.selection, 0, &quot;mapType&quot;), cell(static_1.result, 0, &quot;mapType&quot;)).asString()}}"
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "rgba(2, 34, 66, 0)",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "link_10": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Simple_Linear_Regression",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "LINEAR REGRESSION",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_11": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Complex_Boolean_Logic",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "LOGICAL OPERATORS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "right",
+          "alignmentY": "bottom",
+          "fit": "original",
+          "image": {
+            "name": "bgpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "bottom",
+          "fit": "fitwidth",
+          "image": {
+            "name": "bgfooterdesertjpg1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "container"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Use SAQL (Salesforce Analytics Query Language) to access data in Wave Analytics datasets. Wave Analytics uses SAQL behind the scenes\nin lenses, dashboards, and explorer to gather data for visualizations.\nDevelopers can write SAQL to directly access Wave Analytics data via:\n• Wave REST API\nBuild your own app to access and analyze Wave Analytics data or integrate data with existing apps.\n• Dashboard JSON\nCreate advanced dashboards. A dashboard is a curated set of charts, metrics, and tables.",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "SAQL  Introduction",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
+      "image_9": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconconditionalpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_8": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconmetricspng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_5": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconcomparepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_4": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconrelationshippng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 32,
+          "text": "Build SAQL",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "image_7": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "icondistributionpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_6": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconmeasurepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Computing_Quartiles",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "QUARTILES",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_4": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Union",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "UNION",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Query",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "COGROUP",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_WINDOWING",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "WINDOWING",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_9": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "SAQL OPERATIONS",
+          "textAlignment": "left",
+          "textColor": "rgb(107, 109, 112)"
+        },
+        "type": "link"
+      },
+      "link_7": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Data_Spreads",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "DATA SPREADS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_8": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Adventure_Home3",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "HOME",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "link"
+      },
+      "link_5": {
+        "parameters": {
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "INTRODUCTION",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_6": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Computing_Standard_Deviations",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "STANDARD DEVIATIONS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconintroductionpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_3": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconcompositionpng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "icontablepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000dWlxWAE"
+}
