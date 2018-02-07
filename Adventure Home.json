@@ -1,41 +1,41 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000cvb4WAA&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000dWlrWAE&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000002LiA0QAK",
     "name": "salesforce conferrasoft",
     "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-09T05:47:40.000Z",
+  "createdDate": "2018-02-06T08:12:55.000Z",
   "datasets": [],
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 27606,
+      "fileLength": 22808,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000booJWAQ",
-      "lastModifiedDate": "2018-02-06T06:10:31.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000cvb4WAA/files/0FJ7F000000booJWAQ"
+      "id": "0FJ7F000000bqB8WAI",
+      "lastModifiedDate": "2018-02-06T10:32:59.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000dWlrWAE/files/0FJ7F000000bqB8WAI"
     }
   ],
   "folder": {
-    "id": "00l7F000000Uk8JQAS",
-    "label": "Simhachalam-Learning-App",
-    "name": "Simhachalam_Learning_App",
+    "id": "00l7F000000VGuVQAW",
+    "label": "New Simhachalam Learning App",
+    "name": "BackupLearning_app",
     "namespace": "SAQL",
-    "url": "/services/data/v41.0/wave/folders/00l7F000000Uk8JQAS"
+    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
   },
-  "id": "0FK7F000000cvb4WAA",
+  "id": "0FK7F000000dWlrWAE",
   "label": "Adventure Home",
-  "lastAccessedDate": "2018-02-06T09:04:51.000Z",
+  "lastAccessedDate": "2018-02-07T04:16:35.000Z",
   "lastModifiedBy": {
     "id": "0057F000002LiA0QAK",
     "name": "salesforce conferrasoft",
     "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-06T06:10:29.000Z",
+  "lastModifiedDate": "2018-02-06T10:32:58.000Z",
   "mobileDisabled": false,
-  "name": "Adventure_Home1",
+  "name": "Adventure_Home3",
   "namespace": "SAQL",
   "permissions": {
     "manage": true,
@@ -266,6 +266,20 @@
                 }
               },
               {
+                "colspan": 17,
+                "column": 12,
+                "name": "container_8",
+                "row": 58,
+                "rowspan": 16,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(3, 30, 41)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 1
+                }
+              },
+              {
                 "colspan": 10,
                 "column": 3,
                 "name": "link_1",
@@ -280,22 +294,8 @@
                 }
               },
               {
-                "colspan": 17,
+                "colspan": 11,
                 "column": 12,
-                "name": "container_2",
-                "row": 58,
-                "rowspan": 17,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 8,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 10,
-                "column": 13,
                 "name": "link_2",
                 "row": 59,
                 "rowspan": 3,
@@ -308,13 +308,13 @@
                 }
               },
               {
-                "colspan": 38,
-                "column": 1,
-                "name": "container_4",
-                "row": 76,
-                "rowspan": 4,
+                "colspan": 3,
+                "column": 25,
+                "name": "image_1",
+                "row": 59,
+                "rowspan": 5,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(3, 30, 41)",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -322,13 +322,13 @@
                 }
               },
               {
-                "colspan": 3,
-                "column": 25,
-                "name": "image_1",
-                "row": 59,
-                "rowspan": 4,
+                "colspan": 10,
+                "column": 15,
+                "name": "container_2",
+                "row": 75,
+                "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "rgb(225, 243, 251)",
+                  "backgroundColor": "rgb(3, 30, 41)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -349,8 +349,8 @@
           "fit": "fitwidth",
           "gutterColor": "rgb(8, 30, 41)",
           "image": {
-            "name": "bgpng1",
-            "namespace": ""
+            "name": "bgpng4",
+            "namespace": "SAQL"
           }
         },
         "version": 1
@@ -372,7 +372,7 @@
           "alignmentY": "bottom",
           "fit": "fitheight",
           "image": {
-            "name": "astro_clipboardpng1",
+            "name": "astro_clipboardpng4",
             "namespace": "SAQL"
           }
         },
@@ -393,7 +393,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng2",
+            "name": "iconchartpng4",
             "namespace": "SAQL"
           }
         },
@@ -405,7 +405,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "arrowrpng1",
+            "name": "arrowrpng4",
             "namespace": "SAQL"
           }
         },
@@ -417,7 +417,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrefreshinversepng1",
+            "name": "iconrefreshinversepng4",
             "namespace": "SAQL"
           }
         },
@@ -438,7 +438,7 @@
           "alignmentY": "bottom",
           "fit": "fitheight",
           "image": {
-            "name": "astro_clipboardpng1",
+            "name": "astro_hmmmpng4",
             "namespace": "SAQL"
           }
         },
@@ -461,7 +461,7 @@
       "link_11": {
         "parameters": {
           "destinationLink": {
-            "name": "Charts_Introduction1",
+            "name": "Charts_Introduction3",
             "namespace": "SAQL"
           },
           "destinationType": "dashboard",
@@ -476,14 +476,14 @@
       "link_2": {
         "parameters": {
           "destinationLink": {
-            "name": "SOQL_Introduction",
+            "name": "B_SAQL_Introduction",
             "namespace": "SAQL"
           },
           "destinationType": "dashboard",
           "fontSize": 24,
           "includeState": false,
           "text": "Quick Look SAQL",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "#091A3E"
         },
         "type": "link"
@@ -500,7 +500,7 @@
       "link_9": {
         "parameters": {
           "destinationLink": {
-            "name": "Dynamic_Apps_Introduction1",
+            "name": "Dynamic_Apps_Introduction3",
             "namespace": "SAQL"
           },
           "destinationType": "dashboard",
@@ -518,7 +518,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "titlepng1",
+            "name": "titlepng4",
             "namespace": "SAQL"
           }
         },
@@ -526,25 +526,13 @@
       },
       "container_2": {
         "parameters": {
-          "alignmentX": "right",
-          "alignmentY": "top",
-          "fit": "fitheight",
-          "image": {
-            "name": "bgfooterjpg2",
-            "namespace": "SAQL"
-          }
-        },
-        "type": "container"
-      },
-      "container_3": {
-        "parameters": {
           "alignmentX": "left",
           "alignmentY": "top",
           "fit": "original"
         },
         "type": "container"
       },
-      "container_4": {
+      "container_3": {
         "parameters": {
           "alignmentX": "left",
           "alignmentY": "top",
@@ -558,7 +546,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg2",
+            "name": "bgfooterjpg5",
             "namespace": "SAQL"
           }
         },
@@ -570,7 +558,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg2",
+            "name": "bgfooterdesertjpg4",
             "namespace": "SAQL"
           }
         },
@@ -582,7 +570,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconchartpng1",
+            "name": "iconrefreshinversepng4",
             "namespace": "SAQL"
           }
         },
@@ -594,14 +582,26 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "arrowlpng1",
+            "name": "arrowlpng4",
             "namespace": "SAQL"
           }
         },
         "type": "image"
+      },
+      "container_8": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "fitheight",
+          "image": {
+            "name": "bgfooterjpg2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "container"
       }
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000cvb4WAA"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000dWlrWAE"
 }
