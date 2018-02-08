@@ -1,0 +1,1592 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000dWmRWAU&orgId=00D7F0000049VAF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002LiA0QAK",
+    "name": "salesforce conferrasoft",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-02-06T08:40:06.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F000000bshuSAA",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities3",
+      "namespace": "SAQL",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 13812,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000bqAjWAI",
+      "lastModifiedDate": "2018-02-07T22:53:04.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000dWmRWAU/files/0FJ7F000000bqAjWAI"
+    }
+  ],
+  "folder": {
+    "id": "00l7F000000VGuVQAW",
+    "label": "New Simhachalam Learning App",
+    "name": "BackupLearning_app",
+    "namespace": "SAQL",
+    "url": "/services/data/v41.0/wave/folders/00l7F000000VGuVQAW"
+  },
+  "id": "0FK7F000000dWmRWAU",
+  "label": "B_SAQL - Computing Standard Deviations",
+  "lastAccessedDate": "2018-02-08T12:24:42.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002LiA0QAK",
+    "name": "salesforce conferrasoft",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-02-07T22:53:01.000Z",
+  "mobileDisabled": false,
+  "name": "B_SAQL_Computing_Standard_Deviations",
+  "namespace": "SAQL",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-02-06T08:11:06.000Z",
+  "state": {
+    "dataSourceLinks": [
+      {
+        "fields": [
+          {
+            "dataSourceName": "Wave_Sample_Opportunities1",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "Group_1",
+            "dataSourceType": "static",
+            "fieldName": "value"
+          }
+        ],
+        "label": "bind",
+        "name": "Link_1565"
+      }
+    ],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1280,
+        "name": "Default",
+        "numColumns": 40,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "5e545cd2-2ac8-45a8-a0ea-c5b62811d5a8",
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "link_8",
+                "row": 0,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "text_1",
+                "row": 3,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "text_2",
+                "row": 8,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "container_1",
+                "row": 0,
+                "rowspan": 11,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(8, 30, 41)",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 20,
+                "column": 7,
+                "name": "container_2",
+                "row": 22,
+                "rowspan": 51,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 28,
+                "name": "text_10",
+                "row": 14,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(250, 247, 245)",
+                  "borderColor": "rgb(237, 235, 232)",
+                  "borderEdges": [
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 2
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "container_6",
+                "row": 11,
+                "rowspan": 62,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "text_7",
+                "row": 19,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 20,
+                "column": 7,
+                "name": "container_3",
+                "row": 14,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 7,
+                "name": "text_14",
+                "row": 15,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "rgb(22, 50, 92)",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_5",
+                "row": 14,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 11,
+                "name": "text_3",
+                "row": 14,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_2",
+                "row": 31,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_3",
+                "row": 36,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_4",
+                "row": 40,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 20,
+                "column": 7,
+                "name": "chart_1",
+                "row": 27,
+                "rowspan": 36,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 28,
+                "name": "text_4",
+                "row": 19,
+                "rowspan": 23,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_6",
+                "row": 27,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_1",
+                "row": 22,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "container_5",
+                "row": 75,
+                "rowspan": 18,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "text_5",
+                "row": 75,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "text_6",
+                "row": 79,
+                "rowspan": 14,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "container_7",
+                "row": 95,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "text_8",
+                "row": 95,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "#44A2F5",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 7,
+                "name": "table_1",
+                "row": 99,
+                "rowspan": 15,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_1",
+                "row": 14,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_7",
+                "row": 40,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_8",
+                "row": 22,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_9",
+                "row": 36,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_10",
+                "row": 31,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_11",
+                "row": 27,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_12",
+                "row": 45,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_7",
+                "row": 45,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_9",
+                "row": 51,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "link_10",
+                "row": 57,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_2",
+                "row": 51,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_3",
+                "row": 57,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(244, 246, 249)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 28,
+                "name": "text_9",
+                "row": 42,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 28,
+                "name": "text_11",
+                "row": 45,
+                "rowspan": 21,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 10,
+                "column": 14,
+                "name": "container_4",
+                "row": 116,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#FFFFFF",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "rgb(8, 30, 41)"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Product_Name_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F000000bshuSAA",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities3",
+            "namespace": "SAQL",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000bshuSAA"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Group_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "lens_3": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Account_Name&#39;;\nq = foreach q generate &#39;Account_Name&#39; as &#39;Account_Name&#39;, count() as &#39;count&#39;;\nq = order q by &#39;Account_Name&#39; asc;\nq = limit q 2000;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "lens_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "showPoints": true,
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "combo",
+            "missingValue": "connect",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "lens_2": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "rgba(2, 34, 66, 0)",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "image_10": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconrelationshippng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_12": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "icondistributionpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_11": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconcompositionpng3",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "text_14": {
+        "parameters": {
+          "fontSize": 24,
+          "text": "GOAL",
+          "textAlignment": "center",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
+      "link_10": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Simple_Linear_Regression",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "LINEAR REGRESSION",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "text_10": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Learn about Standard deviations!",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
+      "text_11": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Let X1,...,Xn∼N(μ,σ2)X1,...,Xn∼N(μ,σ2). As shown in this thread, the standard deviation of the sample standard deviation,\ns=1n−1∑i=1n(Xi−X¯¯¯¯)−−−−−−−−−−−−−−−√,\ns=1n−1∑i=1n(Xi−X¯),\nis\nSD(s)=E([E(s)−s]2)−−−−−−−−−−−−√=σ1−2n−1⋅(Γ(n/2)Γ(n−12",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "right",
+          "alignmentY": "bottom",
+          "fit": "original",
+          "image": {
+            "name": "bgpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "bottom",
+          "fit": "fitwidth",
+          "image": {
+            "name": "bgfooterjpg2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "bottom",
+          "fit": "fitwidth"
+        },
+        "type": "container"
+      },
+      "container_4": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_5": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 18,
+          "text": " ",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "container_7": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 24,
+          "text": "CODE",
+          "textAlignment": "left",
+          "textColor": "#44A2F5"
+        },
+        "type": "text"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Salesforce com inc has current Standard Deviation of 0.9893. The Standard Deviation is a measure of how spread out the prices or returns of asset are on average. It is the most widly used risk indicator in the field of investing and finance. Standard Deviation is commonly used to measure confidence in statistical conclusions regarding certain equity instrument or portfolio of equities.",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_7": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "SAQL OPERATIONS",
+          "textAlignment": "left",
+          "textColor": "rgb(107, 109, 112)"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "none",
+          "showValues": true,
+          "showPoints": false,
+          "legend": {
+            "showHeader": false,
+            "show": true,
+            "customSize": "auto",
+            "position": "bottom-center",
+            "inside": false
+          },
+          "axisMode": "sync",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "combo",
+          "missingValue": "connect",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": true,
+            "showTitle": false,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "wave",
+          "step": "lens_1",
+          "dimensionAxis": {
+            "showTitle": false,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "q = load &quot;SAQL__Wave_Sample_Opportunities3&quot;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, sum(&#39;Amount&#39;) as &#39;Revenue&#39;,\nsum(sum(&#39;Amount&#39;)) over ([..] partition by all ) as &#39;Trevenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Counter&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;,power(abs(max(&#39;Revenue&#39;) - (max(&#39;Trevenue&#39;) /max(max(&#39;Counter&#39;)) over\n([..] partition by all))),2)/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;sqr_diff_Rev&#39;,max(&#39;Trevenue&#39;)\n/max(max(&#39;Counter&#39;)) over ([..] partition by all) as &#39;avg_rev&#39;,max(&#39;Revenue&#39;) as &#39;Cntryrev&#39;;\nq = group q by &#39;Billing_Country&#39;;\nq = foreach q generate &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;Cntryrev&#39;) as &#39;Cntryrev&#39;,\nround(max(&#39;avg_rev&#39;)) as &#39;avg_rev&#39;,\nround(max(&#39;avg_rev&#39;) + sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as\n&#39;plus_1_std_dev&#39;,round(max(&#39;avg_rev&#39;) - sqrt(sum(sum(&#39;sqr_diff_Rev&#39;)) over ([..] partition by all))) as &#39;minus_1_std_dev&#39;;qqq",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_9": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Calculation",
+          "textAlignment": "left",
+          "textColor": "#44A2F5"
+        },
+        "type": "text"
+      },
+      "text_8": {
+        "parameters": {
+          "fontSize": 24,
+          "text": "RESULT",
+          "textAlignment": "left",
+          "textColor": "#44A2F5"
+        },
+        "type": "text"
+      },
+      "image_9": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconcomparepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_8": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "icontablepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 32,
+          "text": "SAQL - Computing Standard Deviations",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "image_7": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconmeasurepng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Computing_Quartiles",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "QUARTILES",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_4": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "STANDARD DEVIATIONS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Query",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "COGROUP",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Union",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "UNION",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "table_1": {
+        "parameters": {
+          "borderColor": "#e0e5ee",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#f4f6f9",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#a8b7c7",
+          "innerMinorBorderColor": "#e0e5ee",
+          "mode": "fittocontainer",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "step": "lens_2",
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "link_9": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Complex_Boolean_Logic",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "LOGICAL OPERATORS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_7": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Data_Spreads",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "DATA SPREADS",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_8": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Adventure_Home3",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "HOME",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "link"
+      },
+      "link_5": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_SAQL_Introduction",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "INTRODUCTION",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_6": {
+        "parameters": {
+          "destinationLink": {
+            "name": "B_WINDOWING",
+            "namespace": "SAQL"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "WINDOWING",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconintroductionpng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_3": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconmetricspng2",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      },
+      "image_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconconditionalpng1",
+            "namespace": "SAQL"
+          }
+        },
+        "type": "image"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000dWmRWAU"
+}
