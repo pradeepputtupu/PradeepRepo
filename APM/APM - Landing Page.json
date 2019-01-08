@@ -1,0 +1,1026 @@
+{
+    "label": "APM - Landing Page",
+    "mobileDisabled": true,
+    "state": {
+        "dataSourceLinks": [
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead"
+                    }
+                ],
+                "label": "Lead",
+                "name": "Link_1018"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Industry"
+                    }
+                ],
+                "label": "Industry",
+                "name": "Link_1302"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Country"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Country"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Country"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Country"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Country"
+                    }
+                ],
+                "label": "Country",
+                "name": "Link_1336"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Segment"
+                    }
+                ],
+                "label": "Segment",
+                "name": "Link_55"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "Master_Hierarchy",
+                        "dataSourceType": "saql",
+                        "fieldName": "Level_2"
+                    },
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Subcloud"
+                    }
+                ],
+                "label": "Sub Cloud Connection",
+                "name": "Link_1389"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Cloud"
+                    }
+                ],
+                "label": "Cloud Connection",
+                "name": "Link_1340"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Region"
+                    },
+                    {
+                        "dataSourceName": "Master_Hierarchy",
+                        "dataSourceType": "saql",
+                        "fieldName": "Level_1"
+                    }
+                ],
+                "label": "Region",
+                "name": "Link_1318"
+            },
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "APM_ACV1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    },
+                    {
+                        "dataSourceName": "APM_AOV",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    },
+                    {
+                        "dataSourceName": "APM_Attrition",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    },
+                    {
+                        "dataSourceName": "APM_HC",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    },
+                    {
+                        "dataSourceName": "APM_SWE_INFRA",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    },
+                    {
+                        "dataSourceName": "APM_Pipegen1",
+                        "dataSourceType": "saql",
+                        "fieldName": "Lead_1"
+                    }
+                ],
+                "label": "Lead+1",
+                "name": "Link_3761"
+            }
+        ],
+        "filters": [],
+        "gridLayouts": [
+            {
+                "maxWidth": 1540,
+                "name": "Default",
+                "numColumns": 36,
+                "pages": [
+                    {
+                        "label": "Cloud",
+                        "name": "e20bb354-6062-4bea-a080-a4a34b535fb8",
+                        "navigationHidden": false,
+                        "widgets": [
+                            {
+                                "colspan": 36,
+                                "column": 0,
+                                "name": "container_1",
+                                "row": 6,
+                                "rowspan": 46,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 36,
+                                "column": 0,
+                                "name": "container_4",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgb(225, 243, 251)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 0,
+                                "name": "image_1",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(9, 26, 62, 0)",
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 4,
+                                "column": 32,
+                                "name": "image_2",
+                                "row": 0,
+                                "rowspan": 6,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(9, 26, 62, 0)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 36,
+                                "column": 0,
+                                "name": "image_3",
+                                "row": 52,
+                                "rowspan": 8,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 6,
+                                "name": "link_1",
+                                "row": 27,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 18,
+                                "name": "link_3",
+                                "row": 27,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 12,
+                                "name": "link_4",
+                                "row": 27,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 24,
+                                "name": "link_5",
+                                "row": 27,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 8,
+                                "name": "link_6",
+                                "row": 39,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 35,
+                                "column": 0,
+                                "name": "text_1",
+                                "row": 10,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "borderEdges": []
+                                }
+                            },
+                            {
+                                "colspan": 2,
+                                "column": 34,
+                                "name": "image_5",
+                                "row": 49,
+                                "rowspan": 3,
+                                "widgetStyle": {
+                                    "backgroundColor": "rgba(255, 255, 255, 0)",
+                                    "borderColor": "#E6ECF2",
+                                    "borderEdges": [],
+                                    "borderRadius": 0,
+                                    "borderWidth": 1
+                                }
+                            },
+                            {
+                                "colspan": 23,
+                                "column": 6,
+                                "name": "link_7",
+                                "row": 20,
+                                "rowspan": 5,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 15,
+                                "name": "link_8",
+                                "row": 39,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            },
+                            {
+                                "colspan": 5,
+                                "column": 22,
+                                "name": "link_9",
+                                "row": 39,
+                                "rowspan": 10,
+                                "widgetStyle": {
+                                    "backgroundColor": "#FFFFFF",
+                                    "borderColor": "#44A2F5",
+                                    "borderEdges": [
+                                        "all"
+                                    ],
+                                    "borderRadius": 16,
+                                    "borderWidth": 2
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "rowHeight": "fine",
+                "selectors": [],
+                "style": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "backgroundColor": "#E6ECF2",
+                    "cellSpacingX": 0,
+                    "cellSpacingY": 0,
+                    "fit": "original",
+                    "gutterColor": "#E6ECF2"
+                },
+                "version": 1
+            }
+        ],
+        "layouts": [],
+        "steps": {
+            "Lead_1_3": {
+                "broadcastFacet": true,
+                "datasets": [
+                    {
+                        "id": "0Fb0M0000000MNWSA2",
+                        "label": "APM_ACV",
+                        "name": "APM_ACV1",
+                        "url": "/services/data/v44.0/wave/datasets/0Fb0M0000000MNWSA2"
+                    }
+                ],
+                "isGlobal": false,
+                "query": {
+                    "measures": [
+                        [
+                            "count",
+                            "*"
+                        ]
+                    ],
+                    "groups": [
+                        "Lead_1"
+                    ]
+                },
+                "receiveFacet": true,
+                "selectMode": "multi",
+                "type": "aggregateflex",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "options": {}
+                }
+            },
+            "ACV_AND_AOV_1": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "ACV AND AOV",
+                "numbers": [],
+                "query": "MasterHierarchy = load \"Master_Hierarchy\";\nMasterHierarchy = filter MasterHierarchy by 'Level_1' in  {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nACV = load \"APM_ACV1\";\nACV = filter ACV by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nACV = filter ACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nACV = group ACV by ('{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}','{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}', 'Quarter','Month', 'Fiscal_Year');\nACV = foreach ACV generate  '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', '{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}', 'Quarter' as 'Quarter', 'Fiscal_Year' as 'Fiscal_Year' ,'Month' as 'Month',sum('ACV') as 'ACV';\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER ACV----------------------------------------------------------------------------------------------------------------------------------------------------------\nq2_CYACV = filter ACV by 'Month' in  {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2018\";\nq2_PYACV = filter ACV by 'Month' in  {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2017\";\nq3_CYACV = filter ACV by 'Month' in  {{cell(Quarter_1.selection,0,\"YTD_Month\").asString()}}  && 'Fiscal_Year' == \"2018\";\nq3_PYACV = filter ACV by 'Month' in  {{cell(Quarter_1.selection,0,\"YTD_Month\").asString()}}  && 'Fiscal_Year' == \"2017\";\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------////////////////////////---------LOAD AOV-------///////////////////////////////////////////// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nAOV = load \"APM_AOV\";\nAOV = filter AOV by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nAOV = filter AOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in{{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nAOV = group AOV by ('{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}','{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}',  'Quarter', 'Month', 'Fiscal_Year');\nAOV = foreach AOV generate  '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', '{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}', 'Quarter' as 'Quarter', 'Fiscal_Year' as 'Fiscal_Year','Month' as 'Month' ,sum('AOV') as 'AOV';\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER AOV ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nq2_CYAOV = filter AOV by 'Month' in  {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2018\";\nq2_PYAOV = filter AOV by 'Month' in   {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2017\";\nq3_CYAOV = filter AOV by 'Month' in {{cell(Quarter_1.selection,0,\"YTD_Month_cum\").asString()}} && 'Fiscal_Year' == \"2018\";\nq3_PYAOV = filter AOV by 'Month' in{{cell(Quarter_1.selection,0,\"YTD_Month_cum\").asString()}} && 'Fiscal_Year' == \"2017\";\n---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------/////////////////////////////-----------LOAD ATTRITION ----------------/////////////////////////////////////////\nAttrition = load \"APM_Attrition\";\nAttrition = filter Attrition by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nAttrition = filter Attrition by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in  {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nAttrition = group Attrition by ('{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}','{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}', 'Quarter', 'Month', 'Fiscal_Year');\nAttrition = foreach Attrition generate  '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}','{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_2\").asString()}}', 'Quarter' as 'Quarter', 'Fiscal_Year' as 'Fiscal_Year','Month' as 'Month' ,sum('Attrition')*-1 as 'Attrition_Product', sum('TTM')*-1 as 'TTM_Product',sum('AOV_twelve_month_ago') as 'AOV_twelve_month_ago' ;\n----------------------------------------------------------------------------------------------FILTER ATTRITION -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nq2_CYATT = filter Attrition by 'Month' in  {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2018\";\nq2_PYATT = filter Attrition by 'Month' in   {{cell(Quarter_1.selection,0,\"Month\").asString()}}  && 'Fiscal_Year' == \"2017\";\nq3_CYATT = filter Attrition by 'Month' in  {{cell(Quarter_1.selection,0,\"YTD_Month_cum\").asString()}} && 'Fiscal_Year' == \"2018\";\nq3_PYATT = filter Attrition by 'Month' in {{cell(Quarter_1.selection,0,\"YTD_Month_cum\").asString()}} && 'Fiscal_Year' == \"2017\";\n----------------------------------------------------------------------------------------------------------------------------------LOAD/FILTER PIPEGEN-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nPipegen = load \"APM_Pipegen1\";\nPipegen = filter Pipegen by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nPipegen = filter Pipegen by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in  {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nq2_CYPipegen = filter Pipegen by ('Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}}) && ('Fiscal_Year' == \"2018\");\nq2_PYPipegen = filter Pipegen by ('Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}}) && ('Fiscal_Year' == \"2017\");\nq3_CYPipegen = filter Pipegen by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_pipegen\").asString()}}) && ('Fiscal_Year' == \"2018\");\nq3_PYPipegen = filter Pipegen by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_pipegen\").asString()}}) && ('Fiscal_Year' == \"2017\");\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD HC-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nHC = load \"APM_HC\";\nHC = filter HC by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nHC = filter HC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in  {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nq2_CYHC = filter HC by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2018\");\nq2_PYHC = filter HC by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2017\");\nq2_PY_2_HC = filter HC by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2016\");\nq3_CYHC = filter HC by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_HC\").asString()}}) && ('Fiscal_Year' == \"2018\");\nq3_PYHC = filter HC by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_HC\").asString()}}) && ('Fiscal_Year' == \"2017\");\nq3_PY_2_HC = filter HC by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_HC\").asString()}}) && ('Fiscal_Year' == \"2016\");\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD SWE INFRA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nSW = load \"APM_SWE_INFRA\";\nSW = filter SW by 'Segment'  {{cell(Toggle_CSG_1.selection,0,\"value\").asString()}} \"CSG\";\nSW = filter SW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in  {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nq2_CYSW = filter SW by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2018\");\nq2_PYSW = filter SW by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2017\");\nq2_PY_2_SW = filter SW by 'Quarter' in {{cell(Quarter_1.selection,0,\"Quarter\").asString()}} && ('Fiscal_Year' == \"2016\");\nq3_CYSW = filter SW by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_SW\").asString()}}) && ('Fiscal_Year' == \"2018\");\nq3_PYSW = filter SW by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_SW\").asString()}}) && ('Fiscal_Year' == \"2017\");\nq3_PY_2_SW = filter SW by ('Quarter' in {{cell(Quarter_1.selection,0,\"YTD_Quarter_SW\").asString()}}) && ('Fiscal_Year' == \"2016\");\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult = group  q2_CYACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_CYAOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYAOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYAOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYAOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full,  q2_CYATT by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYATT by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYATT by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYATT by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full,  q2_CYPipegen by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYPipegen by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYPipegen by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYPipegen by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_CYHC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYHC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full,q2_PY_2_HC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYHC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYHC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full,q3_PY_2_HC by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_CYSW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q2_PYSW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full,q2_PY_2_SW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_CYSW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PYSW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' full, q3_PY_2_SW by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}',MasterHierarchy by 'Level_1';\n----------------------------------------------/////////////////////////////////////////------PROJECTION----- -////////////////////////////////////////////////-----------------------------------------------------------------------------------------------------------------------------------------------------\nresult = foreach result generate coalesce(MasterHierarchy.'Level_1', q2_CYACV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q2_PYACV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_CYACV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_PYACV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q2_CYAOV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q2_PYAOV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_CYAOV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_PYAOV.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q2_CYPipegen.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q2_PYPipegen.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_CYPipegen.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', q3_PYPipegen.'{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}') as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', last(MasterHierarchy.'Level_1_Ranking') as 'SortOrder', coalesce(sum(q2_CYACV.'ACV'), 0) as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} ACV Absolute', coalesce(sum(q3_CYACV.'ACV'), 0) as 'YTD ACV Absolute', ((coalesce(sum(q2_CYACV.'ACV'), 0) - coalesce(sum(q2_PYACV.'ACV'), 0)) / coalesce(sum(q2_PYACV.'ACV'), 0)) * 100 as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} ACV Growth', ((coalesce(sum(q3_CYACV.'ACV'), 0) - coalesce(sum(q3_PYACV.'ACV'), 0)) / coalesce(sum(q3_PYACV.'ACV'), 0)) * 100 as 'YTD ACV Growth', coalesce(sum(q2_CYAOV.'AOV'), 0) as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} AOV Absolute', coalesce(sum(q3_CYAOV.'AOV'), 0) as 'YTD AOV Absolute', ((coalesce(sum(q2_CYAOV.'AOV'), 0) - coalesce(sum(q2_PYAOV.'AOV'), 0)) / coalesce(sum(q2_PYAOV.'AOV'), 0)) * 100 as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} AOV Growth', ((coalesce(sum(q3_CYAOV.'AOV'), 0) - coalesce(sum(q3_PYAOV.'AOV'), 0)) / coalesce(sum(q3_PYAOV.'AOV'), 0)) * 100 as 'YTD AOV Growth', coalesce(sum(q2_CYATT.'Attrition_Product'),0) as 'Attrition_CY_Q2',coalesce(sum(q3_CYATT.'Attrition_Product'),0) as 'Attrition_CY_Q3',coalesce(round(sum(q2_CYATT.'TTM_Product'), 0), 0) as 'TTM_Product_CY_Q2' ,coalesce(round(sum(q2_CYATT.'AOV_twelve_month_ago'), 0), 0) as 'AOV_twelve_month_ago_CY_Q2',coalesce(round(sum(q3_CYATT.'TTM_Product'), 0), 0) as 'TTM_Product_CY_Q3' ,coalesce(round(sum(q3_CYATT.'AOV_twelve_month_ago'), 0), 0) as 'AOV_twelve_month_ago_CY_Q3', coalesce(sum(q2_CYPipegen.'Pipegen'), 0) as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} Pipegen Absolute', coalesce(sum(q3_CYPipegen.'Pipegen'), 0) as 'YTD Pipegen Absolute', ((coalesce(sum(q2_CYPipegen.'Pipegen'), 0) - coalesce(sum(q2_PYPipegen.'Pipegen'), 0)) / coalesce(sum(q2_PYPipegen.'Pipegen'), 0)) * 100 as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} Pipegen Growth', ((coalesce(sum(q3_CYPipegen.'Pipegen'), 0) - coalesce(sum(q3_PYPipegen.'Pipegen'), 0)) / coalesce(sum(q3_PYPipegen.'Pipegen'), 0)) * 100 as 'YTD Pipegen Growth';\n--------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult = order result by 'SortOrder' asc;\nresult = foreach result generate '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} ACV Absolute' as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} ACV Absolute', 'YTD ACV Absolute' as 'YTD ACV Absolute', '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} ACV Growth' as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} ACV Growth', 'YTD ACV Growth' as 'YTD ACV Growth', '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} AOV Absolute' as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} AOV Absolute', 'YTD AOV Absolute' as 'YTD AOV Absolute', '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} AOV Growth' as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} AOV Growth', 'YTD AOV Growth' as 'YTD AOV Growth', coalesce(sum('Attrition_CY_Q2'),0) as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} Attrition Absolute', coalesce(sum('Attrition_CY_Q3'),0) as 'YTD Attrition Absolute',(coalesce(round(sum('TTM_Product_CY_Q2'), 0), 0) / coalesce(round(sum(AOV_twelve_month_ago_CY_Q2), 0), 0)) * 100 as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} Attrition TTM Rate', (coalesce(round(sum('TTM_Product_CY_Q3'), 0), 0) / coalesce(round(sum(AOV_twelve_month_ago_CY_Q3), 0), 0)) * 100 as 'YTD Attrition TTM Rate', '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} Pipegen Absolute' as '{{cell(Quarter_1.selection,0,\"Header_name_absolute\").asString()}} PipeGen Absolute','YTD Pipegen Absolute' as 'YTD PipeGen Absolute','{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} Pipegen Growth' as '{{cell(Quarter_1.selection,0,\"Header_name_rate\").asString()}} PipeGen Growth',   'YTD Pipegen Growth' as  'YTD PipeGen Growth';",
+                "receiveFacet": true,
+                "selectMode": "none",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true
+            },
+            "Cloud_Filter_1": {
+                "broadcastFacet": true,
+                "label": "Cloud_Filter",
+                "selectMode": "singlerequired",
+                "type": "staticflex",
+                "values": [
+                    {
+                        "display": "Parameters",
+                        "filter": "[\"AMER\", \"EMEA\", \"APAC\", \"JP\", \"LACA\", \"Other\"]",
+                        "level_1": "Region",
+                        "level_2": "Country",
+                        "level_3": "City",
+                        "Master_l1": "Segment_Hierarchy",
+                        "Master_l1_Rank": "Segment_Hierarchy_Rank"
+                    }
+                ],
+                "numbers": [],
+                "strings": [],
+                "groups": []
+            },
+            "Quarter_1": {
+                "broadcastFacet": true,
+                "label": "Quarter",
+                "selectMode": "single",
+                "start": {
+                    "display": [
+                        "Q2"
+                    ]
+                },
+                "type": "staticflex",
+                "values": [
+                    {
+                        "display": "Q1",
+                        "Quarter": "[\"FYQ1\"]",
+                        "Month": "[\"April\",\"February\",\"March\"]",
+                        "YTD_Month": "[\"April\",\"February\",\"July\",\"June\",\"March\",\"May\"]",
+                        "YTD_Month_cum": "[\"July\"]",
+                        "YTD_Quarter": "[\"FYQ1\",\"FYQ2\"]",
+                        "YTD_Quarter_cum": "[\"FYQ2\"]",
+                        "YTD_Quarter_pipegen": "[\"FYQ1\",\"FYQ2\"]",
+                        "YTD_Quarter_HC": "[\"FYQ2\"]",
+                        "YTD_Quarter_SW": "[\"FYQ2\"]",
+                        "Unit_Month": "Month",
+                        "Unit_Quarter": "Quarter",
+                        "Header_name_absolute": "Q1",
+                        "Header_name_rate": "YoY Q1"
+                    },
+                    {
+                        "display": "Q2",
+                        "Quarter": "[\"FYQ2\"]",
+                        "Month": "[\"July\",\"June\",\"May\"]",
+                        "YTD_Month": "[\"April\",\"February\",\"July\",\"June\",\"March\",\"May\"]",
+                        "YTD_Month_cum": "[\"July\"]",
+                        "YTD_Quarter": "[\"FYQ1\",\"FYQ2\"]",
+                        "YTD_Quarter_cum": "[\"FYQ2\"]",
+                        "YTD_Quarter_pipegen": "[\"FYQ1\",\"FYQ2\"]",
+                        "YTD_Quarter_HC": "[\"FYQ2\"]",
+                        "YTD_Quarter_SW": "[\"FYQ2\"]",
+                        "Unit_Month": "Month",
+                        "Unit_Quarter": "Quarter",
+                        "Header_name_absolute": "Q2",
+                        "Header_name_rate": "YoY Q2"
+                    }
+                ],
+                "numbers": [],
+                "strings": [],
+                "groups": []
+            },
+            "all_1": {
+                "broadcastFacet": true,
+                "groups": [],
+                "label": "Total",
+                "numbers": [],
+                "query": "MasterHierarchy = load \"Master_Hierarchy\";\nMasterHierarchy = filter MasterHierarchy by 'Level_1' in {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nACV = load \"APM_ACV1\";\nACV = filter ACV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\n\nq2_CYACV = filter ACV by 'Quarter' == \"FYQ2\" && 'Fiscal_Year' == \"2018\";\nq2_PYACV = filter ACV by 'Quarter' == \"FYQ2\" && 'Fiscal_Year' == \"2017\";\nq3_CYACV = filter ACV by 'Quarter' == \"FYQ3\" && 'Fiscal_Year' == \"2018\";\nq3_PYACV = filter ACV by 'Quarter' == \"FYQ3\" && 'Fiscal_Year' == \"2017\";\nAOV = load \"APM_AOV\";\nAOV = filter AOV by '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' in {{cell(Cloud_Filter_1.selection,0,\"filter\").asString()}};\nq2_CYAOV = filter AOV by 'Quarter' == \"FYQ2\" && 'Fiscal_Year' == \"2018\";\nq2_PYAOV = filter AOV by 'Quarter' == \"FYQ2\" && 'Fiscal_Year' == \"2017\";\nq3_CYAOV = filter AOV by 'Quarter' == \"FYQ3\" && 'Fiscal_Year' == \"2018\";\nq3_PYAOV = filter AOV by 'Quarter' == \"FYQ3\" && 'Fiscal_Year' == \"2017\";\nresult_Total = group q2_CYACV by all full, q2_PYACV by all full, q3_CYACV by all full, q3_PYACV by all full, q2_CYAOV by all full, q2_PYAOV by all full, q3_CYAOV by all full, q3_PYAOV by all;\nresult_Total = foreach result_Total generate \"    TOTAL    \" as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}', coalesce(sum(q2_CYACV.'ACV'),0) as 'A', coalesce(sum(q2_PYACV.'ACV'),0) as 'B', coalesce(sum(q3_CYACV.'ACV'),0) as 'C', coalesce(sum(q3_PYACV.'ACV'),0) as 'D',coalesce(sum(q2_CYAOV.'AOV'),0) as 'E', coalesce(sum(q2_PYAOV.'AOV'),0) as 'F', coalesce(sum(q3_CYAOV.'AOV'),0) as 'G', coalesce(sum(q3_PYAOV.'AOV'),0) as 'H';\nresult_Total = foreach result_Total generate \" ☁ \" + '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}' as '{{cell(Cloud_Filter_1.selection,0,\"level_1\").asString()}}'",
+                "receiveFacet": true,
+                "selectMode": "none",
+                "strings": [],
+                "type": "saql",
+                "useGlobal": true,
+                "visualizationParameters": {
+                    "visualizationType": "hbar"
+                }
+            },
+            "Toggle_CSG_1": {
+                "broadcastFacet": true,
+                "label": "Toggle_CSG",
+                "selectMode": "singlerequired",
+                "type": "staticflex",
+                "values": [
+                    {
+                        "display": "No CSG",
+                        "value": "!="
+                    },
+                    {
+                        "display": "Only CSG",
+                        "value": "=="
+                    }
+                ],
+                "numbers": [],
+                "strings": [],
+                "groups": []
+            }
+        },
+        "widgetStyle": {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#E6ECF2",
+            "borderEdges": [],
+            "borderRadius": 0,
+            "borderWidth": 1
+        },
+        "widgets": {
+            "image_5": {
+                "parameters": {
+                    "alignmentX": "center",
+                    "alignmentY": "center",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "FSpng5",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            },
+            "text_1": {
+                "parameters": {
+                    "fontSize": 48,
+                    "showActionMenu": true,
+                    "text": "Accountability Performance Matrix View",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "text"
+            },
+            "link_3": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_MASTER_Region_Summary_Dashboard_Level_1"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Region",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "link_4": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_Sales_Leader_Summary_Dashboard_Level_1"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Sales Leader",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "link_1": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_Cloud_Summary_Dashboard_Level_1"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Cloud",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "table_3": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": false,
+                    "fixedColumnWidth": 125,
+                    "header": {
+                        "backgroundColor": "rgb(244, 246, 249)",
+                        "fontColor": "rgb(244, 246, 249)",
+                        "fontSize": 0
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "mode": "fixed",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "showRowIndexColumn": false,
+                    "step": "ACV_AND_AOV_1",
+                    "totals": true,
+                    "verticalPadding": 8,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "link_9": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "dev_APM_ISV_Summary"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "ISV",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "container_1": {
+                "parameters": {
+                    "alignmentX": "center",
+                    "alignmentY": "center",
+                    "fit": "stretch"
+                },
+                "type": "container"
+            },
+            "table_5": {
+                "parameters": {
+                    "borderColor": "#a8b7c7",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#091A3E",
+                        "fontColor": "#FFFFFF",
+                        "fontSize": 12
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "exploreLink": false,
+                    "fixedColumnWidth": 125,
+                    "header": {
+                        "backgroundColor": "rgb(22, 50, 92)",
+                        "fontColor": "#ffffff",
+                        "fontSize": 12
+                    },
+                    "innerMajorBorderColor": "#54698d",
+                    "innerMinorBorderColor": "#a8b7c7",
+                    "mode": "fixed",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "showRowIndexColumn": false,
+                    "step": "all_1",
+                    "totals": true,
+                    "verticalPadding": 8,
+                    "evenRowColor": null,
+                    "oddRowColor": null
+                },
+                "type": "table"
+            },
+            "link_7": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "Copy_of_dev_CPM_Summary_Dashboard_Development_new_metrics"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "CPM",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "pillbox_1": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "showActionMenu": true,
+                    "step": "Cloud_Filter_1"
+                },
+                "type": "pillbox"
+            },
+            "link_8": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_Region_Summary_Dashboard_Trailhead_Details"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Trailhead",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "container_4": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "original"
+                },
+                "type": "container"
+            },
+            "link_5": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_Segment_Summary_Dashboard_Level_1"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Segment",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "link_6": {
+                "parameters": {
+                    "destinationLink": {
+                        "name": "APM_MASTER_Industry_Summary_Dashboard_DEV_incl_India_for_Q4"
+                    },
+                    "destinationType": "dashboard",
+                    "fontSize": 32,
+                    "includeState": false,
+                    "text": "Industry",
+                    "textAlignment": "center",
+                    "textColor": "#44A2F5"
+                },
+                "type": "link"
+            },
+            "image_1": {
+                "parameters": {
+                    "alignmentX": "center",
+                    "alignmentY": "center",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "campfirepng1",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            },
+            "listselector_11": {
+                "parameters": {
+                    "compact": false,
+                    "exploreLink": false,
+                    "instant": true,
+                    "measureField": "count",
+                    "showActionMenu": false,
+                    "step": "Lead_1_3",
+                    "title": "Lead+1"
+                },
+                "type": "listselector"
+            },
+            "image_3": {
+                "parameters": {
+                    "alignmentX": "left",
+                    "alignmentY": "top",
+                    "fit": "stretch",
+                    "image": {
+                        "name": "FS2_Footerpng",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            },
+            "image_2": {
+                "parameters": {
+                    "alignmentX": "center",
+                    "alignmentY": "center",
+                    "fit": "fitheight",
+                    "image": {
+                        "name": "einsteinsectionpredictIOpng2",
+                        "namespace": ""
+                    }
+                },
+                "type": "image"
+            }
+        }
+    },
+    "datasets": [
+        {
+            "id": "0Fb0M0000000MNWSA2",
+            "label": "APM_ACV",
+            "name": "APM_ACV1",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M0000000MNWSA2"
+        },
+        {
+            "id": "0Fb0M0000000MNbSAM",
+            "label": "Master Hierarchy",
+            "name": "Master_Hierarchy",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M0000000MNbSAM"
+        },
+        {
+            "id": "0Fb0M0000000MOASA2",
+            "label": "APM_Attrition",
+            "name": "APM_Attrition",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M0000000MOASA2"
+        },
+        {
+            "id": "0Fb0M0000000MOFSA2",
+            "label": "APM_AOV",
+            "name": "APM_AOV",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M0000000MOFSA2"
+        },
+        {
+            "id": "0Fb0M0000007FIdSAM",
+            "label": "APM_Pipegen1",
+            "name": "APM_Pipegen1",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M0000007FIdSAM"
+        },
+        {
+            "id": "0Fb0M000000E10YSAS",
+            "label": "APM_HC",
+            "name": "APM_HC",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M000000E10YSAS"
+        },
+        {
+            "id": "0Fb0M000000E14fSAC",
+            "label": "APM_SWE_INFRA",
+            "name": "APM_SWE_INFRA",
+            "url": "/services/data/v44.0/wave/datasets/0Fb0M000000E14fSAC"
+        }
+    ]
+}
