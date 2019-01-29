@@ -1,0 +1,529 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000OLAoWAO&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-11-26T10:16:10.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F000000Pb4YSAS",
+      "label": "RealEstate",
+      "name": "RealEstate",
+      "namespace": "puttupu",
+      "url": "/services/data/v42.0/wave/datasets/0Fb7F000000Pb4YSAS"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 13928,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F0000000BvRWAU",
+      "lastModifiedDate": "2018-12-11T08:59:33.000Z",
+      "url": "/services/data/v42.0/wave/lenses/0FK7F000000OLAoWAO/files/0FJ7F0000000BvRWAU"
+    }
+  ],
+  "folder": {
+    "id": "00l7F000000r0p7QAA",
+    "label": "Real Estate Dashboards",
+    "name": "Real_Estate_Dashboards",
+    "namespace": "puttupu",
+    "url": "/services/data/v42.0/wave/folders/00l7F000000r0p7QAA"
+  },
+  "id": "0FK7F000000OLAoWAO",
+  "label": "States",
+  "lastAccessedDate": "2018-12-11T08:59:29.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000000r9JdQAI",
+    "name": "prp pradeep",
+    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-11-26T13:18:31.000Z",
+  "mobileDisabled": false,
+  "name": "States",
+  "namespace": "puttupu",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2018-12-11T08:57:56.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "0cc260af-a0a5-44cb-9d43-ef5f4a18b290",
+            "widgets": [
+              {
+                "colspan": 5,
+                "column": 0,
+                "name": "chart_1",
+                "row": 1,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "link_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "backgroundColor": "#98B1FF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 8,
+                "name": "table_1",
+                "row": 1,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 5,
+                "name": "container_2",
+                "row": 1,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 6,
+                "name": "text_1",
+                "row": 3,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 6,
+                "name": "text_2",
+                "row": 5,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 6,
+                "name": "text_3",
+                "row": 7,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 6,
+                "name": "text_4",
+                "row": 1,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Metric_Name_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F000000Pb4YSAS",
+            "label": "RealEstate",
+            "name": "RealEstate",
+            "namespace": "puttupu",
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000Pb4YSAS"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Metric_Name_1",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Metric_Value&quot;,&quot;A&quot;],[&quot;sum&quot;,&quot;Metric_Value&quot;,&quot;B&quot;],[&quot;sum&quot;,&quot;Metric_Value&quot;,&quot;C&quot;]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Metric_Value&quot;]],&quot;groups&quot;:[&quot;Metric_Name&quot;],&quot;filters&quot;:[[&quot;FISCAL_YR_NM&quot;,[[2017]],&quot;==&quot;]]},&quot;header&quot;:&quot;FY2017&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Metric_Value&quot;]],&quot;groups&quot;:[&quot;Metric_Name&quot;],&quot;filters&quot;:[[&quot;FISCAL_YR_NM&quot;,[[2018]],&quot;==&quot;]]},&quot;header&quot;:&quot;FY2018&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Metric_Value&quot;]],&quot;groups&quot;:[&quot;Metric_Name&quot;],&quot;filters&quot;:[[&quot;FISCAL_YR_NM&quot;,[[2019]],&quot;==&quot;]]},&quot;header&quot;:&quot;FY2019&quot;}],&quot;groups&quot;:[&quot;Metric_Name&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "parameters": {
+            "borderColor": "#e0e5ee",
+            "borderWidth": 1,
+            "cell": {
+              "backgroundColor": "#ffffff",
+              "fontColor": "#16325c",
+              "fontSize": 12
+            },
+            "columnProperties": {},
+            "columns": [],
+            "customBulkActions": [],
+            "header": {
+              "backgroundColor": "#f4f6f9",
+              "fontColor": "#16325c",
+              "fontSize": 12
+            },
+            "innerMajorBorderColor": "#a8b7c7",
+            "innerMinorBorderColor": "#e0e5ee",
+            "maxColumnWidth": 300,
+            "minColumnWidth": 40,
+            "mode": "variable",
+            "numberOfLines": 1,
+            "pivoted": false,
+            "showRowIndexColumn": false,
+            "totals": true,
+            "verticalPadding": 8
+          },
+          "type": "table"
+        }
+      },
+      "Region_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F000000Pb4YSAS",
+            "label": "RealEstate",
+            "name": "RealEstate",
+            "namespace": "puttupu",
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000Pb4YSAS"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Region_1",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Metric_Value&quot;]],&quot;groups&quot;:[&quot;Region&quot;],&quot;filters&quot;:[[&quot;Country&quot;,[&quot;USA&quot;],&quot;in&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "keepLabels",
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "descOrder": false,
+              "showHeader": true,
+              "show": false,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "autoZoom": false,
+            "highColor": "#1674D9",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showNullValues": true,
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "projectionType": "AlbersUSA",
+            "lowColor": "#C5DBF7",
+            "visualizationType": "choropleth",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "columnMap": {
+              "color": [
+                "sum_Metric_Value"
+              ],
+              "trellis": [],
+              "plots": [
+                "Region"
+              ]
+            },
+            "showActionMenu": true,
+            "theme": "wave",
+            "map": "US States",
+            "applyConditionalFormatting": true
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "table_1": {
+        "parameters": {
+          "borderColor": "#FFFFFF",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#f4f6f9",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#FFFFFF",
+          "innerMinorBorderColor": "#FFFFFF",
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showRowIndexColumn": false,
+          "step": "Metric_Name_1",
+          "totals": true,
+          "verticalPadding": 12
+        },
+        "type": "table"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Revenue &amp; CTS",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Misc",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Capacity",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Global",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 16,
+          "includeState": false,
+          "text": "World Wide",
+          "textAlignment": "center",
+          "textColor": "#FFFFFF"
+        },
+        "type": "link"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "{{coalesce(cell(Region_1.selection, 0, &quot;Region&quot;),&quot;All Regions&quot;).asString()}}",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "descOrder": false,
+            "showHeader": true,
+            "show": false,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "autoZoom": false,
+          "highColor": "#1674D9",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showNullValues": true,
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "projectionType": "AlbersUSA",
+          "lowColor": "#C5DBF7",
+          "visualizationType": "choropleth",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "columnMap": {
+            "color": [
+              "sum_Metric_Value"
+            ],
+            "trellis": [],
+            "plots": [
+              "Region"
+            ]
+          },
+          "theme": "wave",
+          "step": "Region_1",
+          "map": "US States",
+          "applyConditionalFormatting": true
+        },
+        "type": "chart"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v42.0/wave/dashboards/0FK7F000000OLAoWAO"
+}
