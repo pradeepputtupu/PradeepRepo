@@ -1,0 +1,1996 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://apmsandbox.my.salesforce.com/analytics/wave/dashboard?assetId=0FKf2000000nvqbGAA&orgId=00Df2000001LxAD&loginHost=na53.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "005f20000090YTVAA2",
+    "name": "Abhishek Gupta",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-07-30T19:04:49.000Z",
+  "datasets": [
+    {
+      "id": "0Fbf2000000HtY7CAK",
+      "label": "APM_ACV1",
+      "name": "APM_ACV",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtY7CAK"
+    },
+    {
+      "id": "0Fbf2000000HtZWCA0",
+      "label": "APM_ISV",
+      "name": "APM_ISV",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtZWCA0"
+    },
+    {
+      "id": "0Fbf2000000HtaUCAS",
+      "label": "APM_RANGER",
+      "name": "APM_RANGER",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtaUCAS"
+    },
+    {
+      "id": "0Fbf2000000HtayCAC",
+      "label": "APM_TRAILBLAZER",
+      "name": "APM_TRAILBLAZER",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtayCAC"
+    },
+    {
+      "id": "0Fbf2000000HtbwCAC",
+      "label": "APM_TRAILHEAD_BADGES",
+      "name": "APM_TRAILHEAD_BADGES",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtbwCAC"
+    },
+    {
+      "id": "0Fbf2000000HteBCAS",
+      "label": "Master_Hierarchy",
+      "name": "Master_Hierarchy",
+      "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HteBCAS"
+    }
+  ],
+  "dateVersion": 1,
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 16774,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJf2000000TlgzGAC",
+      "lastModifiedDate": "2019-01-04T03:45:57.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FKf2000000nvqbGAA/files/0FJf2000000TlgzGAC"
+    }
+  ],
+  "folder": {
+    "id": "00lf2000002UDezAAG",
+    "label": "WIP APM FY19 Q4",
+    "name": "APM",
+    "url": "/services/data/v44.0/wave/folders/00lf2000002UDezAAG"
+  },
+  "id": "0FKf2000000nvqbGAA",
+  "label": "APM - ISV Summary",
+  "lastModifiedBy": {
+    "id": "005f20000090Y9KAAU",
+    "name": "Rajan Ahuja",
+    "profilePhotoUrl": "https://apmsandbox--c.na53.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2019-01-04T03:45:36.000Z",
+  "mobileDisabled": true,
+  "name": "APM_ISV_Summary",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2019-01-16T20:36:55.000Z",
+  "state": {
+    "dataSourceLinks": [
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          }
+        ],
+        "label": "Lead",
+        "name": "Link_1018"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Lead"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          }
+        ],
+        "label": "Industry",
+        "name": "Link_1302"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Country"
+          }
+        ],
+        "label": "Country",
+        "name": "Link_1336"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Segment"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Industry"
+          }
+        ],
+        "label": "Segment",
+        "name": "Link_55"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Cloud"
+          }
+        ],
+        "label": "Cloud Connection",
+        "name": "Link_1340"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Lead_1"
+          }
+        ],
+        "label": "Lead+1",
+        "name": "Link_3761"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Subcloud"
+          }
+        ],
+        "label": "Sub Cloud Connection",
+        "name": "Link_1389"
+      },
+      {
+        "fields": [
+          {
+            "dataSourceName": "APM_ACV",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_AOV",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_Attrition",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_Pipegen1",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_HC",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_SWE_INFRA",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "Master_Hierarchy",
+            "dataSourceType": "saql",
+            "fieldName": "Level_1"
+          },
+          {
+            "dataSourceName": "APM_TRAILHEAD_BADGES",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_TRAILBLAZER",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          },
+          {
+            "dataSourceName": "APM_RANGER",
+            "dataSourceType": "saql",
+            "fieldName": "Region"
+          }
+        ],
+        "label": "Region",
+        "name": "Link_1318"
+      }
+    ],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1540,
+        "name": "Default",
+        "numColumns": 36,
+        "pages": [
+          {
+            "label": "ISV",
+            "name": "e20bb354-6062-4bea-a080-a4a34b535fb8",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "table_2",
+                "row": 19,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 29,
+                "column": 6,
+                "name": "table_1",
+                "row": 23,
+                "rowspan": 28,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_1",
+                "row": 12,
+                "rowspan": 48,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_3",
+                "row": 0,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_1",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 32,
+                "name": "image_2",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "table_6",
+                "row": 23,
+                "rowspan": 28,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 29,
+                "column": 6,
+                "name": "table_7",
+                "row": 19,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "image_3",
+                "row": 60,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 6,
+                "name": "table_4",
+                "row": 16,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 3,
+                "name": "listselector_7",
+                "row": 1,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "link_1",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 23,
+                "name": "image_4",
+                "row": 54,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_6",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 24,
+                "name": "link_3",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 12,
+                "name": "link_4",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 6,
+                "column": 0,
+                "name": "text_3",
+                "row": 14,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 3,
+                "name": "listselector_1",
+                "row": 5,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 23,
+                "column": 0,
+                "name": "text_5",
+                "row": 51,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          },
+          {
+            "label": "Top 10 Partners",
+            "name": "6aaeeec2-dfac-40f5-8b20-f88693c6325b",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_1",
+                "row": 12,
+                "rowspan": 48,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_3",
+                "row": 0,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_1",
+                "row": 2,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 32,
+                "name": "image_2",
+                "row": 1,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "image_3",
+                "row": 60,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "link_1",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 1,
+                "column": 28,
+                "name": "image_4",
+                "row": 57,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 36,
+                "column": 0,
+                "name": "container_6",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 3,
+                "name": "table_17",
+                "row": 17,
+                "rowspan": 37,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 15,
+                "column": 18,
+                "name": "table_8",
+                "row": 17,
+                "rowspan": 37,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#091A3E",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 3,
+                "name": "text_1",
+                "row": 14,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 7,
+                "column": 18,
+                "name": "text_2",
+                "row": 14,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 12,
+                "name": "link_2",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 24,
+                "name": "link_5",
+                "row": 9,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#FFFFFF",
+                  "borderEdges": [
+                    "all"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 9,
+                "name": "text_4",
+                "row": 3,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 19,
+                "column": 3,
+                "name": "text_6",
+                "row": 55,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#E6ECF2",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "original",
+          "gutterColor": "#E6ECF2"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Lead_1_3": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fbf2000000HtY7CAK",
+            "label": "APM_ACV1",
+            "name": "APM_ACV",
+            "url": "/services/data/v44.0/wave/datasets/0Fbf2000000HtY7CAK"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Lead_1&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "Cloud_Filter_1": {
+        "broadcastFacet": true,
+        "label": "Cloud_Filter",
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Parameters&quot;]}",
+        "type": "staticflex",
+        "values": [
+          "{&quot;display&quot;:&quot;Parameters&quot;,&quot;filter&quot;:&quot;[&#92;&quot;AMER&#92;&quot;, &#92;&quot;EMEA&#92;&quot;, &#92;&quot;APAC&#92;&quot;, &#92;&quot;JP&#92;&quot;, &#92;&quot;LACA&#92;&quot;, &#92;&quot;Other&#92;&quot;]&quot;,&quot;level_1&quot;:&quot;Region&quot;,&quot;level_2&quot;:&quot;Country&quot;,&quot;level_3&quot;:&quot;City&quot;,&quot;Master_l1&quot;:&quot;Segment_Hierarchy&quot;,&quot;Master_l1_Rank&quot;:&quot;Segment_Hierarchy_Rank&quot;}"
+        ]
+      },
+      "Table_Top_10_Partners_AOV": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Top_10_Partners_ACV",
+        "numbers": [],
+        "query": "q = load &quot;APM_ISV&quot;;\nq_A = filter q by  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq_B = filter q by  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nresult = group q_A by &#39;Top_10_Partners_AOV&#39; full, q_B by &#39;Top_10_Partners_AOV&#39;;\nresult = foreach result generate coalesce(q_A.&#39;Top_10_Partners_AOV&#39;, q_B.&#39;Top_10_Partners_AOV&#39;) as &#39;Top 10 Partners AOV&#39;, coalesce(last(q_A.&#39;RANK&#39;),last(q_B.&#39;RANK&#39;)) as &#39;RANK&#39;,sum(q_A.&#39;AOV_TOP_10&#39;) as &#39;FY18&#39;, sum(q_B.&#39;AOV_TOP_10&#39;) as &#39;FY19&#39;;\nresult = foreach result generate &#39;Top 10 Partners AOV&#39;, &#39;RANK&#39;,&#39;FY18&#39;, &#39;FY19&#39;, (FY19-FY18)/FY18 as &#39;Growth&#39;;\nresult = order result by (&#39;RANK&#39; asc);\nresult = foreach result generate &#39;Top 10 Partners AOV&#39;, &#39;FY18&#39;, &#39;FY19&#39;, (FY19-FY18)/FY18 as &#39;Growth&#39;;result = limit result 2000;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "Table_Level_1_Dimension": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Level_1_Dimension",
+        "numbers": [],
+        "query": "MasterHierarchy = load &quot;Master_Hierarchy&quot;;\nMasterHierarchy = filter MasterHierarchy by &#39;Level_1&#39; in  {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD RANGER------------------------------------------------------------------------------------------------------------------------------------------------------;\nISV = load &quot;APM_ISV&quot;;\nISV = group ISV by (&#39;Region&#39;, &#39;Quarter&#39;, &#39;Fiscal_Year&#39;);\nISV = foreach ISV generate  &#39;Region&#39; as &#39;Region&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,sum(&#39;ACV_Take_Off&#39;) as &#39;ACV_Take_Off&#39;,sum(&#39;ACV_Landing_Performance&#39;) as &#39;ACV_Landing_Performance&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER ISV----------------------------------------------------------------------------------------------------------------------------------------------------------;\nq2_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = group q2_CYISV by &#39;Region&#39; full, q2_PYISV by &#39;Region&#39; full, q3_CYISV by &#39;Region&#39; full, q3_PYISV by &#39;Region&#39; ;\n----------------------------------------------/////////////////////////////////////////------PROJECTION----- -////////////////////////////////////////////////-----------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = foreach result generate (case when q2_CYISV.&#39;Region&#39; == &quot;     -Horizontal (incl Foundation)&quot; then &quot;         -Horizontal (incl Foundation)&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Vertical&quot; then &quot;         -Vertical&quot; else coalesce (q2_CYISV.&#39;Region&#39;, q2_PYISV.&#39;Region&#39;, q3_CYISV.&#39;Region&#39;, q3_PYISV.&#39;Region&#39;) end) as &#39;Region&#39;,    coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;YTD Take Off Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;YTD Take Off Growth&#39;,  (case when q2_CYISV.&#39;Region&#39; == &quot;AMER&quot; then &quot;A&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Horizontal (incl Foundation)&quot; then &quot;B&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Vertical&quot; then &quot;C&quot; when q2_CYISV.&#39;Region&#39; == &quot;EMEA&quot; then &quot;D&quot; when q2_CYISV.&#39;Region&#39; == &quot;APAC&quot; then &quot;E&quot;when q2_CYISV.&#39;Region&#39; == &quot;LACA&quot; then &quot;EZ&quot; when q2_CYISV.&#39;Region&#39; == &quot;JP&quot; then &quot;F&quot; when q2_CYISV.&#39;Region&#39; == &quot;Global Total&quot; then &quot;G&quot;when q2_CYISV.&#39;Region&#39; == &quot;Global Excluding IQVIA&quot; then &quot;H&quot; when q2_CYISV.&#39;Region&#39; == &quot;Global Excluding IQVIA/Veeva&quot; then &quot;I&quot; else &quot;Z&quot; end )as &#39;SortOrder&#39;,  coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;YTD Landing Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;YTD Landing Growth&#39;;\n--------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = order result by &#39;SortOrder&#39; asc;\nresult = foreach result generate &#39;Region&#39; ;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "start": "[]",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "Clone_of_Total_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Clone of Total",
+        "numbers": [],
+        "query": "MasterHierarchy = load &quot;Master_Hierarchy&quot;;\nresult_Total = group MasterHierarchy by all;\nresult_Total = foreach result_Total generate &quot;    Badges    &quot; as &#39;ACV Take Off&#39;, &quot;    Trailblazer    &quot; as &#39;ACV Landing&#39;;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart",
+          "visualizationType": "hbar"
+        }
+      },
+      "Cloud_Level3_2": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Cloud_Level3",
+        "numbers": [],
+        "query": "MasterHierarchy = load &quot;Master_Hierarchy&quot;;\nMasterHierarchy = filter MasterHierarchy by &#39;Level_1&#39; in   {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\n\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD BADGES------------------------------------------------------------------------------------------------------------------------------------------------------;\nBADGES = load &quot;APM_TRAILHEAD_BADGES&quot;;\nBADGES = filter BADGES by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nBADGES = filter BADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nBADGES = group BADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nBADGES = foreach BADGES generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Trailhead_Badges&#39;) as &#39;Trailhead_Badges&#39; ;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER BADGES----------------------------------------------------------------------------------------------------------------------------------------------------------\nBADGES = filter BADGES by &#39;Country&#39;!= &quot;N/A&quot;;\nBADGES = filter BADGES by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD TRAILBLAZER------------------------------------------------------------------------------------------------------------------------------------------------------;\nTRAILBLAZER = load &quot;APM_TRAILBLAZER&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nTRAILBLAZER = group TRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nTRAILBLAZER = foreach TRAILBLAZER generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Trailblazers&#39;) as &#39;Trailblazers&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER TRAILBLAZER----------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAILBLAZER = filter TRAILBLAZER by &#39;Country&#39;!= &quot;N/A&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD RANGER------------------------------------------------------------------------------------------------------------------------------------------------------;\nRANGER = load &quot;APM_RANGER&quot;;\nRANGER = filter RANGER by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nRANGER = filter RANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nRANGER = group RANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nRANGER = foreach RANGER generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Ranger&#39;) as &#39;Ranger&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER RANGER----------------------------------------------------------------------------------------------------------------------------------------------------------\nRANGER = filter RANGER by &#39;Country&#39;!= &quot;N/A&quot;;\nRANGER = filter RANGER by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping Level_1 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult =  group  q2_CYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_CYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_CYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; ,MasterHierarchy by &#39;Level_1&#39;;\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PROJECTION LEVEL1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult = foreach result generate  &quot;☁ &quot; + coalesce(MasterHierarchy.&#39;Level_1&#39;, q2_CYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_PYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_CYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_PYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_CYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_PYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_CYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_PYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;) as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,last(MasterHierarchy.&#39;Level_1_Ranking&#39;) as &#39;Sort_Code&#39;,coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;, coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, ((coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;, ((coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;, coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, ((coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;, ((coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;, coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) as &#39;YTD Ranger Absolute&#39;, ((coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;, ((coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;YTD Ranger Growth&#39;;\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GROUPING Level_2-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult_SubCloud = group q2_CYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full,q2_CYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full,q2_CYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) left, MasterHierarchy by (&#39;Level_1&#39;, &#39;Level_2&#39;) ;\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PROJECTION Level_2-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nresult_SubCloud = foreach result_SubCloud generate  coalesce(q2_CYBADGES.&#39;Country&#39;, q2_PYBADGES.&#39;Country&#39;, q3_CYBADGES.&#39;Country&#39;, q3_PYBADGES.&#39;Country&#39;,q2_CYTRAILBLAZER.&#39;Country&#39;, q2_PYTRAILBLAZER.&#39;Country&#39;, q3_CYTRAILBLAZER.&#39;Country&#39;, q3_PYTRAILBLAZER.&#39;Country&#39;,q2_CYRANGER.&#39;Country&#39;, q2_PYRANGER.&#39;Country&#39;, q3_CYRANGER.&#39;Country&#39;, q3_PYRANGER.&#39;Country&#39;) as &#39;Country&#39;, coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;, coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, ((coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;, ((coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;, coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, ((coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;, ((coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;, coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) as &#39;YTD Ranger Absolute&#39;, ((coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;, ((coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;YTD Ranger Growth&#39;,coalesce(MasterHierarchy.&#39;Level_1&#39; ,q2_CYBADGES.&#39;Region&#39;, q2_PYBADGES.&#39;Region&#39;, q3_CYBADGES.&#39;Region&#39;, q3_PYBADGES.&#39;Region&#39;, q2_CYTRAILBLAZER.&#39;Region&#39;, q2_PYTRAILBLAZER.&#39;Region&#39;, q3_CYTRAILBLAZER.&#39;Region&#39;, q3_PYTRAILBLAZER.&#39;Region&#39;,q2_CYRANGER.&#39;Region&#39;, q2_PYRANGER.&#39;Region&#39;, q3_CYRANGER.&#39;Region&#39;, q3_PYRANGER.&#39;Region&#39;) as &#39;Region_Level2&#39;;\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Country Bin logic as data couldn&#39;t be provided in a clean format, this code uses the spec bins and put&#39;s all other countries in the  RO Region bin -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n;\r\nresult2_SubCloud = group result_SubCloud by (&#39;Region_Level2&#39;, &#39;Country&#39;);\r\nresult2_SubCloud = foreach result2_SubCloud generate &#39;Region_Level2&#39; as &#39;Region_Level2&#39;, case when (&#39;Region_Level2&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region_Level2&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region_Level2&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region_Level2&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region_Level2&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region_Level2&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region_Level2&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region_Level2&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Absolute&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Growth&#39;), 0) as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Absolute&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Growth&#39;), 0) as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Absolute&#39;), 0) as &#39;YTD Ranger Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Growth&#39;), 0) as &#39;YTD Ranger Growth&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GROUPING FOR Mapped Countries ------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nresult2_SubCloud = group result2_SubCloud by (&#39;Region_Level2&#39;, &#39;Country&#39;)left, MasterHierarchy by (&#39;Level_1&#39;, &#39;Level_2&#39;);\r\nresult2_SubCloud = foreach result2_SubCloud generate result2_SubCloud.&#39;Region_Level2&#39; as &#39;Region_Level2&#39;, &quot;    ↳  &quot; + (result2_SubCloud.&#39;Country&#39; ) as &#39;Region&#39;,  coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Absolute&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Growth&#39;), 0) as &#39;YTD Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Absolute&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Growth&#39;), 0) as &#39;YTD Trailblazer Growth&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Absolute&#39;), 0) as &#39;YTD Ranger Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Growth&#39;), 0) as &#39;YTD Ranger Growth&#39;,last(MasterHierarchy.&#39;Level_2_Sort_Code&#39;) as &#39;Sort_Code&#39;;\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------UNION--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nFinal = union result, result2_SubCloud;\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nFinal = filter Final by &#39;Sort_Code&#39; != &quot;&quot;;\nFinal = order Final by (&#39;Sort_Code&#39; asc,  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; asc);\nFinal = foreach Final generate   &#39;Region&#39; as &#39;Region&#39;;;\n",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Table_Level_2_Measures_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Level_2_Measures_1",
+        "numbers": [],
+        "query": "MasterHierarchy = load &quot;Master_Hierarchy&quot;;\nMasterHierarchy = filter MasterHierarchy by &#39;Level_1&#39; in   {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\n\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD BADGES------------------------------------------------------------------------------------------------------------------------------------------------------;\nBADGES = load &quot;APM_TRAILHEAD_BADGES&quot;;\nBADGES = filter BADGES by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nBADGES = filter BADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nBADGES = group BADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nBADGES = foreach BADGES generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;   when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Trailhead_Badges&#39;) as &#39;Trailhead_Badges&#39; ;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER BADGES----------------------------------------------------------------------------------------------------------------------------------------------------------\nBADGES = filter BADGES by &#39;Country&#39;!= &quot;N/A&quot;;\nBADGES = filter BADGES by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYBADGES = filter BADGES by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD TRAILBLAZER------------------------------------------------------------------------------------------------------------------------------------------------------;\nTRAILBLAZER = load &quot;APM_TRAILBLAZER&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nTRAILBLAZER = group TRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nTRAILBLAZER = foreach TRAILBLAZER generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;   when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Trailblazers&#39;) as &#39;Trailblazers&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER TRAILBLAZER----------------------------------------------------------------------------------------------------------------------------------------------------------\nTRAILBLAZER = filter TRAILBLAZER by &#39;Country&#39;!= &quot;N/A&quot;;\nTRAILBLAZER = filter TRAILBLAZER by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYTRAILBLAZER = filter TRAILBLAZER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------LOAD RANGER------------------------------------------------------------------------------------------------------------------------------------------------------;\nRANGER = load &quot;APM_RANGER&quot;;\nRANGER = filter RANGER by &#39;Segment&#39;  {{cell(Toggle_CSG_1.selection,0,&quot;value&quot;).asString()}} &quot;CSG&quot;;\nRANGER = filter RANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; in {{cell(Cloud_Filter_1.selection,0,&quot;filter&quot;).asString()}};\nRANGER = group RANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;, &#39;Quarter&#39;,&#39;Month&#39;, &#39;Fiscal_Year&#39;);\nRANGER = foreach RANGER generate  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, case when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot;   when  (&#39;Region&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot; when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; when (&#39;Region&#39; == &quot;Other&quot; )then &quot;Other&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,&#39;Month&#39; as &#39;Month&#39;,sum(&#39;Ranger&#39;) as &#39;Ranger&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER RANGER----------------------------------------------------------------------------------------------------------------------------------------------------------\nRANGER = filter RANGER by &#39;Country&#39;!= &quot;N/A&quot;;\nRANGER = filter RANGER by &#39;Country&#39;!= &quot;TOTALS/SUMMARY&quot;;q2_CYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYRANGER = filter RANGER by &#39;Month&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Month&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping Level_1 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult =  group  q2_CYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYBADGES by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_CYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYTRAILBLAZER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_CYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q2_PYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_CYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; full, q3_PYRANGER by &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; ,MasterHierarchy by &#39;Level_1&#39;;\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PROJECTION LEVEL1------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult = foreach result generate  &quot;☁ &quot; + coalesce(MasterHierarchy.&#39;Level_1&#39;, q2_CYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_PYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_CYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_PYBADGES.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_CYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q2_PYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_CYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, q3_PYTRAILBLAZER.&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;) as &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;,last(MasterHierarchy.&#39;Level_1_Ranking&#39;) as &#39;Sort_Code&#39;,coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;, coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, ((coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;, ((coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;, coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, ((coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;, ((coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;, coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) as &#39;YTD Ranger Absolute&#39;, ((coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;, ((coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;YTD Ranger Growth&#39;;\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GROUPING Level_2-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nresult_SubCloud = group q2_CYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYBADGES by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full,q2_CYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYTRAILBLAZER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full,q2_CYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q2_PYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_CYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) full, q3_PYRANGER by (&#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39;, &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_2&quot;).asString()}}&#39;) left, MasterHierarchy by (&#39;Level_1&#39;, &#39;Level_2&#39;) ;\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------PROJECTION Level_2-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nresult_SubCloud = foreach result_SubCloud generate  coalesce(q2_CYBADGES.&#39;Country&#39;, q2_PYBADGES.&#39;Country&#39;, q3_CYBADGES.&#39;Country&#39;, q3_PYBADGES.&#39;Country&#39;,q2_CYTRAILBLAZER.&#39;Country&#39;, q2_PYTRAILBLAZER.&#39;Country&#39;, q3_CYTRAILBLAZER.&#39;Country&#39;, q3_PYTRAILBLAZER.&#39;Country&#39;,q2_CYRANGER.&#39;Country&#39;, q2_PYRANGER.&#39;Country&#39;, q3_CYRANGER.&#39;Country&#39;, q3_PYRANGER.&#39;Country&#39;) as &#39;Country&#39;, coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;, coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, ((coalesce(sum(q2_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q2_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;, ((coalesce(sum(q3_CYBADGES.&#39;Trailhead_Badges&#39;), 0) - coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) / coalesce(sum(q3_PYBADGES.&#39;Trailhead_Badges&#39;), 0)) * 100 as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;, coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, ((coalesce(sum(q2_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q2_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;, ((coalesce(sum(q3_CYTRAILBLAZER.&#39;Trailblazers&#39;), 0) - coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) / coalesce(sum(q3_PYTRAILBLAZER.&#39;Trailblazers&#39;), 0)) * 100 as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;, coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) as &#39;YTD Ranger Absolute&#39;, ((coalesce(sum(q2_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q2_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;, ((coalesce(sum(q3_CYRANGER.&#39;Ranger&#39;), 0) - coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) / coalesce(sum(q3_PYRANGER.&#39;Ranger&#39;), 0)) * 100 as &#39;YTD Ranger Growth&#39;,coalesce(MasterHierarchy.&#39;Level_1&#39; ,q2_CYBADGES.&#39;Region&#39;, q2_PYBADGES.&#39;Region&#39;, q3_CYBADGES.&#39;Region&#39;, q3_PYBADGES.&#39;Region&#39;, q2_CYTRAILBLAZER.&#39;Region&#39;, q2_PYTRAILBLAZER.&#39;Region&#39;, q3_CYTRAILBLAZER.&#39;Region&#39;, q3_PYTRAILBLAZER.&#39;Region&#39;,q2_CYRANGER.&#39;Region&#39;, q2_PYRANGER.&#39;Region&#39;, q3_CYRANGER.&#39;Region&#39;, q3_PYRANGER.&#39;Region&#39;) as &#39;Region_Level2&#39;;\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Country Bin logic as data couldn&#39;t be provided in a clean format, this code uses the spec bins and put&#39;s all other countries in the  RO Region bin -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n;\r\nresult2_SubCloud = group result_SubCloud by (&#39;Region_Level2&#39;, &#39;Country&#39;);\r\nresult2_SubCloud = foreach result2_SubCloud generate &#39;Region_Level2&#39; as &#39;Region_Level2&#39;, case when (&#39;Region_Level2&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Canada&quot; ))then &quot;Canada&quot; when (&#39;Region_Level2&#39; == &quot;AMER&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United States&quot; ))then &quot;United States&quot; when (&#39;Region_Level2&#39; == &quot;AMER&quot;)then &quot;RO AMER&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;United Kingdom&quot; ))then &quot;United Kingdom&quot;  when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;France&quot; ))then &quot;France&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Germany&quot; ))then &quot;Germany&quot; when  (&#39;Region_Level2&#39; == &quot;EMEA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Netherlands&quot; ))then &quot;Netherlands&quot; when (&#39;Region_Level2&#39; == &quot;EMEA&quot; ) then &quot;RO EMEA&quot; when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Australia&quot; ))then &quot;ANZ&quot; when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;ANZ&quot; ))then &quot;ANZ&quot; when  (&#39;Region_Level2&#39; == &quot;APAC&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;India&quot; ))then &quot;India&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region_Level2&#39; == &quot;APAC&quot; )then &quot;RO APAC&quot;  when  (&#39;Region_Level2&#39; == &quot;JP&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Japan&quot; ))then &quot;Japan&quot;  when  (&#39;Region_Level2&#39; == &quot;JP&quot;  )then &quot;RO JP&quot;  when  (&#39;Region_Level2&#39; == &quot;LACA&quot; &amp;&amp; (&#39;Country&#39; ==  &quot;Brazil&quot; ))then &quot;Brazil&quot; when (&#39;Region_Level2&#39; == &quot;LACA&quot; )then &quot;RO LACA&quot; else &quot;ERROR&quot; end as &#39;Country&#39;, coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Absolute&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Growth&#39;), 0) as &#39;YTD Trailhead_Badges Growth&#39;, coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Absolute&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Growth&#39;), 0) as &#39;YTD Trailblazer Growth&#39;,coalesce(sum(&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Absolute&#39;), 0) as &#39;YTD Ranger Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Growth&#39;), 0) as &#39;YTD Ranger Growth&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GROUPING FOR Mapped Countries ------------------------------------------------------------------------------------------------------------------------------------------------------------------------\r\nresult2_SubCloud = group result2_SubCloud by (&#39;Region_Level2&#39;, &#39;Country&#39;)left, MasterHierarchy by (&#39;Level_1&#39;, &#39;Level_2&#39;);\r\nresult2_SubCloud = foreach result2_SubCloud generate result2_SubCloud.&#39;Region_Level2&#39; as &#39;Region_Level2&#39;, &quot;    ↳  &quot; + (result2_SubCloud.&#39;Country&#39; ) as &#39;Region&#39;,  coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Absolute&#39;), 0) as &#39;YTD Trailhead_Badges Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailhead_Badges Growth&#39;), 0) as &#39;YTD Trailhead_Badges Growth&#39;,coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Absolute&#39;), 0) as &#39;YTD Trailblazer Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Trailblazer Growth&#39;), 0) as &#39;YTD Trailblazer Growth&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Absolute&#39;), 0) as &#39;YTD Ranger Absolute&#39;, coalesce(sum(result2_SubCloud.&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;,coalesce(sum(result2_SubCloud.&#39;YTD Ranger Growth&#39;), 0) as &#39;YTD Ranger Growth&#39;,last(MasterHierarchy.&#39;Level_2_Sort_Code&#39;) as &#39;Sort_Code&#39;;\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------UNION--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nFinal = union result, result2_SubCloud;\n--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nFinal = filter Final by &#39;Sort_Code&#39; != &quot;&quot;;\nFinal = order Final by (&#39;Sort_Code&#39; asc,  &#39;{{cell(Cloud_Filter_1.selection,0,&quot;level_1&quot;).asString()}}&#39; asc);\nFinal = foreach Final generate  &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailhead_Badges Absolute&#39;, &#39;YTD Trailhead_Badges Absolute&#39;,&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailhead_Badges Growth&#39;, &#39;YTD Trailhead_Badges Growth&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Trailblazer Absolute&#39;, &#39;YTD Trailblazer Absolute&#39;,&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Trailblazer Growth&#39;,&#39;YTD Trailblazer Growth&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Ranger Absolute&#39;,&#39;YTD Ranger Absolute&#39; as &#39;YTD Ranger Absolute&#39;,&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Ranger Growth&#39;,   &#39;YTD Ranger Growth&#39; as  &#39;YTD Ranger Growth&#39; ;;\n",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Table_Top_10_Partners_ACV": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Top_10_Partners_ACV",
+        "numbers": [],
+        "query": "q = load &quot;APM_ISV&quot;;\nq_A = filter q by  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq_B = filter q by  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nresult = group q_A by &#39;Top_10_Partners_ACV&#39; full, q_B by &#39;Top_10_Partners_ACV&#39;;\nresult = foreach result generate coalesce(q_A.&#39;Top_10_Partners_ACV&#39;, q_B.&#39;Top_10_Partners_ACV&#39;) as &#39;Top 10 Partners ACV&#39;, coalesce(last(q_A.&#39;RANK&#39;),last(q_B.&#39;RANK&#39;)) as &#39;RANK&#39;, sum(q_A.&#39;ACV_TOP_10&#39;) as &#39;FY18&#39;, sum(q_B.&#39;ACV_TOP_10&#39;) as &#39;FY19&#39;;\nresult = foreach result generate &#39;Top 10 Partners ACV&#39;, &#39;RANK&#39;,&#39;FY18&#39;, &#39;FY19&#39;, (FY19-FY18)/FY18 as &#39;Growth&#39;;\nresult = order result by (&#39;RANK&#39; );\nresult = foreach result generate &#39;Top 10 Partners ACV&#39;, &#39;FY18&#39;, &#39;FY19&#39;, (FY19-FY18)/FY18 as &#39;Growth&#39;;\nresult = limit result 2000;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "Quarter_1": {
+        "broadcastFacet": true,
+        "label": "Quarter",
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Q3&quot;]}",
+        "type": "staticflex",
+        "values": [
+          "{&quot;display&quot;:&quot;Q1&quot;,&quot;Quarter&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;]&quot;,&quot;Month&quot;:&quot;[&#92;&quot;February&#92;&quot;,&#92;&quot;March&#92;&quot;,&#92;&quot;April&#92;&quot;]&quot;,&quot;YTD_Month&quot;:&quot;[&#92;&quot;April&#92;&quot;]&quot;,&quot;YTD_Month_cum&quot;:&quot;[&#92;&quot;April&#92;&quot;]&quot;,&quot;YTD_Quarter&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;]&quot;,&quot;YTD_Quarter_cum&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;]&quot;,&quot;YTD_Quarter_pipegen&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;,&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_HC&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;]&quot;,&quot;YTD_Quarter_SW&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;]&quot;,&quot;Unit_Month&quot;:&quot;Month&quot;,&quot;Unit_Quarter&quot;:&quot;Quarter&quot;,&quot;Header_name_absolute&quot;:&quot;Q1&quot;,&quot;Header_name_rate&quot;:&quot;YoY Q1&quot;,&quot;Line_Rank&quot;:&quot;HBZ&quot;,&quot;Filter_Table&quot;:&quot;[&#92;&quot;Premier (a la carte)&#92;&quot;]&quot;,&quot;Filter_Table_2&quot;:&quot;[&#92;&quot;☁ Premier (a la carte)&#92;&quot;,&#92;&quot;    ↳  Premier (a la carte)&#92;&quot;]&quot;}",
+          "{&quot;display&quot;:&quot;Q2&quot;,&quot;Quarter&quot;:&quot;[&#92;&quot;FYQ2&#92;&quot;]&quot;,&quot;Month&quot;:&quot;[&#92;&quot;July&#92;&quot;,&#92;&quot;June&#92;&quot;,&#92;&quot;May&#92;&quot;]&quot;,&quot;YTD_Month&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Month_cum&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Quarter&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;]&quot;,&quot;YTD_Quarter_cum&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_pipegen&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;,&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_HC&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_SW&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;Unit_Month&quot;:&quot;Month&quot;,&quot;Unit_Quarter&quot;:&quot;Quarter&quot;,&quot;Header_name_absolute&quot;:&quot;Q2&quot;,&quot;Header_name_rate&quot;:&quot;YoY Q2&quot;,&quot;Line_Rank&quot;:&quot;HBZ&quot;,&quot;Filter_Table&quot;:&quot;[&#92;&quot;Premier (a la carte)&#92;&quot;]&quot;,&quot;Filter_Table_2&quot;:&quot;[&#92;&quot;☁ Premier (a la carte)&#92;&quot;,&#92;&quot;    ↳  Premier (a la carte)&#92;&quot;]&quot;}",
+          "{&quot;display&quot;:&quot;Q3&quot;,&quot;Quarter&quot;:&quot;[&#92;&quot;FYQ3&#92;&quot;]&quot;,&quot;Month&quot;:&quot;[&#92;&quot;August&#92;&quot;,&#92;&quot;September&#92;&quot;,&#92;&quot;October&#92;&quot;]&quot;,&quot;YTD_Month&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Month_cum&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Quarter&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;]&quot;,&quot;YTD_Quarter_cum&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_pipegen&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;,&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_HC&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_SW&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;Unit_Month&quot;:&quot;Month&quot;,&quot;Unit_Quarter&quot;:&quot;Quarter&quot;,&quot;Header_name_absolute&quot;:&quot;Q3&quot;,&quot;Header_name_rate&quot;:&quot;YoY Q3&quot;,&quot;Line_Rank&quot;:&quot;HBZ&quot;,&quot;Filter_Table&quot;:&quot;[&#92;&quot;Premier (a la carte)&#92;&quot;]&quot;,&quot;Filter_Table_2&quot;:&quot;[&#92;&quot;☁ Premier (a la carte)&#92;&quot;,&#92;&quot;    ↳  Premier (a la carte)&#92;&quot;]&quot;}",
+          "{&quot;display&quot;:&quot;Q4&quot;,&quot;Quarter&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;Month&quot;:&quot;[&#92;&quot;November&#92;&quot;,&#92;&quot;December&#92;&quot;,&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Month&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Month_cum&quot;:&quot;[&#92;&quot;January&#92;&quot;]&quot;,&quot;YTD_Quarter&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;,&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_cum&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_pipegen&quot;:&quot;[&#92;&quot;FYQ1&#92;&quot;,&#92;&quot;FYQ2&#92;&quot;,&#92;&quot;FYQ3&#92;&quot;,&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_HC&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;YTD_Quarter_SW&quot;:&quot;[&#92;&quot;FYQ4&#92;&quot;]&quot;,&quot;Unit_Month&quot;:&quot;Month&quot;,&quot;Unit_Quarter&quot;:&quot;Quarter&quot;,&quot;Header_name_absolute&quot;:&quot;Q4&quot;,&quot;Header_name_rate&quot;:&quot;YoY Q4&quot;,&quot;Line_Rank&quot;:&quot;HBZ&quot;,&quot;Filter_Table&quot;:&quot;[&#92;&quot;Premier (a la carte)&#92;&quot;]&quot;,&quot;Filter_Table_2&quot;:&quot;[&#92;&quot;☁ Premier (a la carte)&#92;&quot;,&#92;&quot;    ↳  Premier (a la carte)&#92;&quot;]&quot;}"
+        ]
+      },
+      "all_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Total",
+        "numbers": [],
+        "query": "MasterHierarchy = load &quot;Master_Hierarchy&quot;; q= group MasterHierarchy by &#39;all&#39;;\nq = foreach q generate &quot;    TOTAL    &quot; as &#39;Region&#39;;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        }
+      },
+      "Table_Level_1_Measures_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Level_1_Measures_1",
+        "numbers": [],
+        "query": "\nISV = load &quot;APM_ISV&quot;;\nISV = group ISV by (&#39;Region&#39;, &#39;Quarter&#39;, &#39;Fiscal_Year&#39;);\nISV = foreach ISV generate  &#39;Region&#39; as &#39;Region&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,sum(&#39;ACV_Take_Off&#39;) as &#39;ACV_Take_Off&#39;,sum(&#39;ACV_Landing_Performance&#39;) as &#39;ACV_Landing_Performance&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER ISV----------------------------------------------------------------------------------------------------------------------------------------------------------;\nq2_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = group q2_CYISV by &#39;Region&#39; full, q2_PYISV by &#39;Region&#39; full, q3_CYISV by &#39;Region&#39; full, q3_PYISV by &#39;Region&#39; ;\n----------------------------------------------/////////////////////////////////////////------PROJECTION----- -////////////////////////////////////////////////-----------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = foreach result generate (case when q2_CYISV.&#39;Region&#39; == &quot;     -Horizontal (incl Foundation)&quot; then &quot;         -Horizontal (incl Foundation)&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Vertical&quot; then &quot;         -Vertical&quot; else coalesce (q2_CYISV.&#39;Region&#39;, q2_PYISV.&#39;Region&#39;, q3_CYISV.&#39;Region&#39;, q3_PYISV.&#39;Region&#39;) end) as &#39;Region&#39;,    coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;YTD Take Off Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;YTD Take Off Growth&#39;, (case when q2_CYISV.&#39;Region&#39; == &quot;AMER&quot; then &quot;A&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Horizontal (incl Foundation)&quot; then &quot;B&quot; when q2_CYISV.&#39;Region&#39; == &quot;     -Vertical&quot; then &quot;C&quot; when q2_CYISV.&#39;Region&#39; == &quot;EMEA&quot; then &quot;D&quot; when q2_CYISV.&#39;Region&#39; == &quot;APAC&quot; then &quot;E&quot;when q2_CYISV.&#39;Region&#39; == &quot;LACA&quot; then &quot;EZ&quot; when q2_CYISV.&#39;Region&#39; == &quot;JP&quot; then &quot;F&quot; when q2_CYISV.&#39;Region&#39; == &quot;Global Total&quot; then &quot;G&quot;when q2_CYISV.&#39;Region&#39; == &quot;Global Excluding IQVIA&quot; then &quot;H&quot; when q2_CYISV.&#39;Region&#39; == &quot;Global Excluding IQVIA/Veeva&quot; then &quot;I&quot; else &quot;Z&quot; end )as &#39;SortOrder&#39;,  coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;YTD Landing Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;YTD Landing Growth&#39;;\n--------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = order result by &#39;SortOrder&#39; asc;\nresult = foreach result generate &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39;, &#39;YTD Take Off Absolute&#39; as &#39;YTD Take Off Absolute&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39;, &#39;YTD Take Off Growth&#39; as &#39;YTD Take Off Growth&#39;,&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39;, &#39;YTD Landing Absolute&#39; as &#39;YTD Landing Absolute&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39;, &#39;YTD Landing Growth&#39; as &#39;YTD Landing Growth&#39; ;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true
+      },
+      "Fiscal_Year_1": {
+        "broadcastFacet": true,
+        "label": "Fiscal Year",
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;2019&quot;]}",
+        "type": "staticflex",
+        "values": [
+          "{&quot;display&quot;:&quot;2019&quot;,&quot;value&quot;:2019,&quot;CY&quot;:&quot;2019&quot;,&quot;PY&quot;:&quot;2018&quot;,&quot;PY_2&quot;:&quot;2017&quot;}",
+          "{&quot;display&quot;:&quot;2018&quot;,&quot;value&quot;:2018,&quot;CY&quot;:&quot;2018&quot;,&quot;PY&quot;:&quot;2017&quot;,&quot;PY_2&quot;:&quot;2016&quot;}"
+        ]
+      },
+      "Table_Page_1_Header": {
+        "broadcastFacet": true,
+        "groups": [],
+        "label": "Table_Page_1_Header",
+        "numbers": [],
+        "query": "\nISV = load &quot;APM_ISV&quot;;\nISV = filter ISV by &#39;Region&#39; == &quot;Global Total&quot;;\nISV = group ISV by (&#39;Region&#39;, &#39;Quarter&#39;, &#39;Fiscal_Year&#39;);\nISV = foreach ISV generate  &#39;Region&#39; as &#39;Region&#39;, &#39;Quarter&#39; as &#39;Quarter&#39;, &#39;Fiscal_Year&#39; as &#39;Fiscal_Year&#39; ,sum(&#39;ACV_Take_Off&#39;) as &#39;ACV_Take_Off&#39;,sum(&#39;ACV_Landing_Performance&#39;) as &#39;ACV_Landing_Performance&#39;;\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------FILTER ISV----------------------------------------------------------------------------------------------------------------------------------------------------------;\nq2_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq2_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_CYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;CY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\nq3_PYISV = filter ISV by &#39;Quarter&#39; in  {{cell(Quarter_1.selection,0,&quot;YTD_Quarter&quot;).asString()}}  &amp;&amp;  {{cell(Fiscal_Year_1.selection,0,&quot;PY&quot;).asEquality(&#39;Fiscal_Year&#39;)}};\n\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Grouping------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = group q2_CYISV by &#39;all&#39; full, q2_PYISV by &#39;all&#39; full, q3_CYISV by &#39;all&#39; full, q3_PYISV by &#39;all&#39; ;\n----------------------------------------------/////////////////////////////////////////------PROJECTION----- -////////////////////////////////////////////////-----------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = foreach result generate     coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) as &#39;YTD Take Off Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Take_Off&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Take_Off&#39;), 0)) * 100 as &#39;YTD Take Off Growth&#39;,  coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39;, coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) as &#39;YTD Landing Absolute&#39;, ((coalesce(sum(q2_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q2_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39;, ((coalesce(sum(q3_CYISV.&#39;ACV_Landing_Performance&#39;), 0) - coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) / coalesce(sum(q3_PYISV.&#39;ACV_Landing_Performance&#39;), 0)) * 100 as &#39;YTD Landing Growth&#39;;\n--------------------------------------------------------------------------------------------------------------------------------------FINAL PROJECTION-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;\nresult = foreach result generate &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Take Off Absolute&#39;, &#39;YTD Take Off Absolute&#39; as &#39;YTD Take Off Absolute&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Take Off Growth&#39;, &#39;YTD Take Off Growth&#39; as &#39;YTD Take Off Growth&#39;,&#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_absolute&quot;).asString()}} Landing Absolute&#39;, &#39;YTD Landing Absolute&#39; as &#39;YTD Landing Absolute&#39;, &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39; as &#39;{{cell(Quarter_1.selection,0,&quot;Header_name_rate&quot;).asString()}} Landing Growth&#39;, &#39;YTD Landing Growth&#39; as &#39;YTD Landing Growth&#39; ;",
+        "receiveFacet": true,
+        "selectMode": "none",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "visualizationType": "hbar"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "container_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "stretch"
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "table_17": {
+        "parameters": {
+          "borderColor": "#a8b7c7",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "header": {
+            "backgroundColor": "#16325c",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#54698d",
+          "innerMinorBorderColor": "#a8b7c7",
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Top_10_Partners_ACV",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "$ values in millions\nExcludes Plus Fees",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Top 10 Partners AOV YTD",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "**Note:\nGlobal Total includes PNR, EDAs, Connectors, and Resell + Sell-To ACV via Strategic HLS Partnerships (Optum, Cerner, IQVia)\nPNR = Percent of Net Revenue via traditional OEM / ISVForce sales (FY19 Target = $132.5M)\nTakeoff - ACV based on HQ region of Partner\nLanding - ACV based on End Customer location, regardless of Partner",
+          "textAlignment": "left",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Top 10 Partners",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "**Note:\nIQVIA includes $2.1M BPO deal closed in Q2 &amp; $3.5M EDA closed in Q3\nAmadeus $1.8M EDA included in FY18 baseline (PNR 12% YoY)",
+          "textAlignment": "left",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "listselector_7": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "showActionMenu": false,
+          "step": "Quarter_1",
+          "title": "Quarter"
+        },
+        "type": "listselector"
+      },
+      "image_4": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "fitheight",
+          "image": {
+            "name": "FSpng5",
+            "namespace": ""
+          }
+        },
+        "type": "image"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 20,
+          "showActionMenu": true,
+          "text": "Top 10 Partners ACV YTD\n",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "text"
+      },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "6aaeeec2-dfac-40f5-8b20-f88693c6325b"
+          },
+          "destinationType": "page",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "Top 10 Partners",
+          "textAlignment": "center",
+          "textColor": "#335779"
+        },
+        "type": "link"
+      },
+      "link_4": {
+        "parameters": {
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "ISV",
+          "textAlignment": "center",
+          "textColor": "#5C7A99"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "APM_Landing_Page2"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "APM Views Landing Page",
+          "textAlignment": "center",
+          "textColor": "#44A2F5"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "e20bb354-6062-4bea-a080-a4a34b535fb8"
+          },
+          "destinationType": "page",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "ISV",
+          "textAlignment": "center",
+          "textColor": "#44A2F5"
+        },
+        "type": "link"
+      },
+      "table_1": {
+        "parameters": {
+          "borderColor": "#F2F6FA",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#FFFFFF",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "fixedColumnWidth": 90,
+          "header": {
+            "backgroundColor": "rgb(244, 246, 249)",
+            "fontColor": "rgb(244, 246, 249)",
+            "fontSize": 0
+          },
+          "innerMajorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "innerMinorBorderColor": "#E6ECF2",
+          "mode": "fixed",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Level_1_Measures_1",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "table_2": {
+        "parameters": {
+          "borderColor": "rgba(255, 255, 255, 0.2)",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "rgb(43, 71, 114)",
+            "fontColor": "#FFFFFF",
+            "fontSize": 10
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "header": {
+            "backgroundColor": "rgb(22, 50, 92)",
+            "fontColor": "#ffffff",
+            "fontSize": 10
+          },
+          "innerMajorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "innerMinorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "mode": "fittocontainer",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "all_1",
+          "totals": true,
+          "verticalPadding": 4
+        },
+        "type": "table"
+      },
+      "table_3": {
+        "parameters": {
+          "borderColor": "#e0e5ee",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "fixedColumnWidth": 125,
+          "header": {
+            "backgroundColor": "rgb(244, 246, 249)",
+            "fontColor": "rgb(244, 246, 249)",
+            "fontSize": 0
+          },
+          "innerMajorBorderColor": "#a8b7c7",
+          "innerMinorBorderColor": "#e0e5ee",
+          "mode": "fixed",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Level_1_Measures_1",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "table_4": {
+        "parameters": {
+          "borderColor": "#e0e5ee",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#FFFFFF",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "fixedColumnWidth": 360,
+          "header": {
+            "backgroundColor": "rgb(22, 50, 92)",
+            "fontColor": "#FFFFFF",
+            "fontSize": 14
+          },
+          "innerMajorBorderColor": "#a8b7c7",
+          "innerMinorBorderColor": "#e0e5ee",
+          "mode": "fixed",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Clone_of_Total_1",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "table_5": {
+        "parameters": {
+          "borderColor": "#a8b7c7",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#091A3E",
+            "fontColor": "#FFFFFF",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "fixedColumnWidth": 125,
+          "header": {
+            "backgroundColor": "rgb(22, 50, 92)",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#54698d",
+          "innerMinorBorderColor": "#a8b7c7",
+          "mode": "fixed",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "all_1",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "table_6": {
+        "parameters": {
+          "borderColor": "#E6ECF2",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "header": {
+            "backgroundColor": "rgb(244, 246, 249)",
+            "fontColor": "rgb(244, 246, 249)",
+            "fontSize": 0
+          },
+          "innerMajorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "innerMinorBorderColor": "#E6ECF2",
+          "mode": "fittocontainer",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Level_1_Dimension",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "pillbox_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "showActionMenu": true,
+          "step": "Cloud_Filter_1"
+        },
+        "type": "pillbox"
+      },
+      "table_7": {
+        "parameters": {
+          "borderColor": "rgba(255, 255, 255, 0.2)",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "rgb(43, 71, 114)",
+            "fontColor": "#FFFFFF",
+            "fontSize": 12
+          },
+          "columnProperties": {
+            "Q3 Trailhead_Badges Absolute": {
+              "parameters": {
+                "alignment": "right"
+              },
+              "type": "text"
+            }
+          },
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "fixedColumnWidth": 90,
+          "header": {
+            "backgroundColor": "rgb(22, 50, 92)",
+            "fontColor": "#ffffff",
+            "fontSize": 10
+          },
+          "innerMajorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "innerMinorBorderColor": "rgba(255, 255, 255, 0.2)",
+          "mode": "fixed",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Page_1_Header",
+          "totals": true,
+          "verticalPadding": 4
+        },
+        "type": "table"
+      },
+      "link_5": {
+        "parameters": {
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "Top 10 Partners",
+          "textAlignment": "center",
+          "textColor": "#44A2F5"
+        },
+        "type": "link"
+      },
+      "table_8": {
+        "parameters": {
+          "borderColor": "#a8b7c7",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": false,
+          "header": {
+            "backgroundColor": "#16325c",
+            "fontColor": "#ffffff",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#54698d",
+          "innerMinorBorderColor": "#a8b7c7",
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "numberOfLines": 1,
+          "pivoted": false,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Table_Top_10_Partners_AOV",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "fitwidth",
+          "image": {
+            "name": "campfirepng1",
+            "namespace": ""
+          }
+        },
+        "type": "image"
+      },
+      "listselector_11": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Lead_1_3",
+          "title": "Lead+1"
+        },
+        "type": "listselector"
+      },
+      "image_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "stretch",
+          "image": {
+            "name": "FS2_Footerpng",
+            "namespace": ""
+          }
+        },
+        "type": "image"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "none",
+          "showActionMenu": false,
+          "step": "Fiscal_Year_1",
+          "title": "Fiscal Year"
+        },
+        "type": "listselector"
+      },
+      "image_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "fitheight",
+          "image": {
+            "name": "einsteinsectionpredictIOpng2",
+            "namespace": ""
+          }
+        },
+        "type": "image"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FKf2000000nvqbGAA"
+}
