@@ -1,0 +1,21 @@
+{
+  "createdBy": {
+    "id": "005f20000090QioAAE",
+    "name": "Integration User",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "createdDate": "2018-07-20T19:12:08.000Z",
+  "description": "This is the default Salesforce dataflow.",
+  "emailNotificationLevel": "warnings",
+  "id": "02Kf2000000pEVREA2",
+  "label": "Default Salesforce Dataflow",
+  "lastModifiedBy": {
+    "id": "005f20000090QioAAE",
+    "name": "Integration User",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "lastModifiedDate": "2018-07-20T19:12:08.000Z",
+  "name": "SalesEdgeEltWorkflow",
+  "type": "dataflow",
+  "url": "/services/data/v44.0/wave/dataflows/02Kf2000000pEVREA2"
+}
