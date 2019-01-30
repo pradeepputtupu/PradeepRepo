@@ -1,0 +1,21 @@
+{
+  "createdBy": {
+    "id": "005f20000090QiiAAE",
+    "name": "SDO_A5",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "createdDate": "2018-07-20T19:12:08.000Z",
+  "description": "Dataflow for the Service Analytics Application.",
+  "emailNotificationLevel": "never",
+  "id": "02Kf2000000pEV6EAM",
+  "label": "Field Service Analytics",
+  "lastModifiedBy": {
+    "id": "005f20000090QidAAE",
+    "name": "SDO_hp",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "lastModifiedDate": "2018-07-20T19:12:08.000Z",
+  "name": "Field_Service_Analytics",
+  "type": "dataflow",
+  "url": "/services/data/v44.0/wave/dataflows/02Kf2000000pEV6EAM"
+}
