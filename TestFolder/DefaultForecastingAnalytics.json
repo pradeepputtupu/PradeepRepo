@@ -1,0 +1,1310 @@
+{
+  "notificationLevel": "",
+  "workflowDefinition": {
+    "PrepareForecastingPrediction": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "join(ForecastingPrediction, Period)",
+        "mergeWithSource": false,
+        "computedFields": [
+          {
+            "name": "Date",
+            "saqlExpression": "toDate('Period.EndDate', \"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "Date",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "Value",
+            "saqlExpression": "Amount",
+            "scale": 5,
+            "label": "Value",
+            "type": "Numeric"
+          },
+          {
+            "name": "Type",
+            "saqlExpression": "\"Prediction\"",
+            "label": "Type",
+            "type": "Text"
+          },
+          {
+            "name": "Period_ID",
+            "saqlExpression": "PeriodId",
+            "label": "Period_ID",
+            "type": "Text"
+          },
+          {
+            "name": "ForecastingType_ID",
+            "saqlExpression": "ForecastingTypeId",
+            "label": "ForecastingType_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Owner_ID",
+            "saqlExpression": "ForecastOwnerId",
+            "label": "Owner_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Category",
+            "saqlExpression": "\"Prediction\"",
+            "label": "Category",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "ValueLowerBound",
+            "saqlExpression": "AmountLowerBound",
+            "scale": 5,
+            "label": "ValueLowerBound",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ValueHigherBound",
+            "saqlExpression": "AmountHigherBound",
+            "scale": 5,
+            "label": "ValueHigherBound",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "Register_Period": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "name": "Period",
+        "alias": "Period",
+        "source": "Extract_Period"
+      }
+    },
+    "filterLastDayOfMonth_LastDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "IsSameCreatedDate_LastDay:EQ:true",
+        "source": "CompareLastCreatedDate_LastDay"
+      }
+    },
+    "PrepareForecastingItem": {
+      "action": "append",
+      "parameters": {
+        "sources": [
+          "NormalizeAmountWithoutManagerAdjustment",
+          "NormalizeForecastAmount"
+        ]
+      }
+    },
+    "RemoveOriginalAmountColumns_FirstDay": {
+      "action": "sliceDataset",
+      "parameters": {
+        "mode": "drop",
+        "source": "append_ForecastingItemHistory_FirstDayOfMonth_FirstDay",
+        "fields": [
+          {
+            "name": "AmountWithoutManagerAdjustment__hst"
+          },
+          {
+            "name": "ForecastAmount__hst"
+          }
+        ]
+      }
+    },
+    "Register_Users": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "name": "User",
+        "alias": "User1",
+        "source": "join(User,MgrRole)"
+      }
+    },
+    "filterOneItemHistoryPerDay_FirstDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "IsSameCreatedDate_FirstDay:EQ:true",
+        "source": "CompareLastCreatedDate_FirstDay"
+      }
+    },
+    "joinForecastingQuotaWithPeriod": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "Filter_ForecastingQuota",
+        "left_key": [
+          "PeriodId"
+        ],
+        "right_select": [
+          "EndDate"
+        ],
+        "right": "Extract_Period",
+        "relationship": "Period",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "Filter_ForecastingPrediction": {
+      "action": "filter",
+      "parameters": {
+        "filter": "ForecastingTypeId:EQ:0Dbf20000017QcTCAU",
+        "source": "Extract_ForecastingPrediction"
+      }
+    },
+    "RemoveFirstCreatedDateColumn_LastDay": {
+      "action": "sliceDataset",
+      "parameters": {
+        "mode": "drop",
+        "source": "filterOneItemHistoryPerDay_LastDay",
+        "fields": [
+          {
+            "name": "LatestCreatedDate_LastDay"
+          },
+          {
+            "name": "GroupBy_LastDay"
+          },
+          {
+            "name": "FirstCreatedDate_LastDay"
+          },
+          {
+            "name": "IsSameCreatedDate_LastDay"
+          },
+          {
+            "name": "AsOfDate_FirstDay"
+          }
+        ]
+      }
+    },
+    "join(User,MgrRole)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "join(Users,UserRole)",
+        "left_key": [
+          "Role.ParentRoleId"
+        ],
+        "right_select": [
+          "ForecastUserId"
+        ],
+        "right": "Extract_UserRole",
+        "relationship": "MgrRole",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "Filter_ForecastingPredictionTrend": {
+      "action": "filter",
+      "parameters": {
+        "filter": "ForecastingTypeId:EQ:0Dbf20000017QcTCAU",
+        "source": "Extract_ForecastingPredictionTrend"
+      }
+    },
+    "RemoveLastCreatedDateColumn_FirstDay": {
+      "action": "sliceDataset",
+      "parameters": {
+        "mode": "drop",
+        "source": "filterOneItemHistoryPerDay_FirstDay",
+        "fields": [
+          {
+            "name": "EarliestCreatedDate_FirstDay"
+          },
+          {
+            "name": "GroupBy_FirstDay"
+          },
+          {
+            "name": "LastCreatedDate_FirstDay"
+          },
+          {
+            "name": "IsSameCreatedDate_FirstDay"
+          },
+          {
+            "name": "CreatedDate"
+          }
+        ]
+      }
+    },
+    "Filter_ForecastingQuota": {
+      "action": "filter",
+      "parameters": {
+        "filter": "ForecastingTypeId:EQ:0Dbf20000017QcTCAU",
+        "source": "Extract_ForecastingQuota"
+      }
+    },
+    "join(Users,UserRole)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "Extract_Users",
+        "left_key": [
+          "UserRoleId"
+        ],
+        "right_select": [
+          "ParentRoleId",
+          "ForecastUserId"
+        ],
+        "right": "Extract_UserRole",
+        "relationship": "Role",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "GenerateLastCreatedDateColumn_LastDay": {
+      "action": "computeRelative",
+      "parameters": {
+        "partitionBy": [
+          "ParentId"
+        ],
+        "orderBy": [
+          {
+            "name": "AsOfDate_FirstDay",
+            "direction": "desc"
+          }
+        ],
+        "source": "RemoveLastCreatedDateColumn_FirstDay",
+        "computedFields": [
+          {
+            "expression": {
+              "sourceField": "AsOfDate_FirstDay",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "LastCreatedDate_LastDay",
+            "label": "LastCreatedDate_LastDay"
+          },
+          {
+            "expression": {
+              "sourceField": "Parent.PeriodId.EndDate",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "AsOfDate_LastDay",
+            "label": "AsOfDate_LastDay"
+          }
+        ]
+      }
+    },
+    "join(ForecastingItemHistory,ForecastingItem,Period)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "Extract_ForecastingItemHistory",
+        "left_key": [
+          "ParentId"
+        ],
+        "right_select": [
+          "ForecastingItemCategory",
+          "OwnerId",
+          "PeriodId",
+          "ForecastingTypeId",
+          "PeriodId.EndDate",
+          "PeriodId.StartDate"
+        ],
+        "right": "join(ForecastingItem, Period)",
+        "relationship": "Parent",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "GenerateAsOfDateColumn_FirstDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "Filter_join(ForecastingItemHistory,ForecastingItem,Period)",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "AsOfDate_FirstDay",
+            "saqlExpression": "case when toDate(CreatedDate_Year+\"-\"+CreatedDate_Month+\"-\"+CreatedDate_Day,\"yyyy-MM-dd\") < toDate('Parent.PeriodId.StartDate',\"yyyy-MM-dd\") then toDate('Parent.PeriodId.StartDate',\"yyyy-MM-dd\") else toDate(CreatedDate_Year+\"-\"+CreatedDate_Month+\"-\"+CreatedDate_Day,\"yyyy-MM-dd\")  end",
+            "format": "yyyy-MM-dd",
+            "label": "AsOfDate_FirstDay",
+            "type": "Date"
+          },
+          {
+            "name": "EarliestCreatedDate_FirstDay",
+            "saqlExpression": "toDate(CreatedDate_Year+\"-\"+CreatedDate_Month+\"-\"+CreatedDate_Day+\" \"+CreatedDate_Hour+\":\"+CreatedDate_Minute+\":\"+CreatedDate_Second,\"yyyy-MM-dd HH:mm:ss\")",
+            "format": "yyyy-MM-dd HH:mm:ss",
+            "label": "EarliestCreatedDate_FirstDay",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "ForecastAmount_hst",
+            "saqlExpression": "ForecastAmount__hst",
+            "scale": 5,
+            "label": "ForecastAmount_hst",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "AmountWithoutManagerAdjustment_hst",
+            "saqlExpression": "AmountWithoutManagerAdjustment__hst",
+            "scale": 5,
+            "label": "AmountWithoutManagerAdjustment_hst",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "filterOneItemHistoryPerDay_LastDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "IsSameCreatedDate_LastDay:EQ:true",
+        "source": "CompareFirstCreatedDate_LastDay"
+      }
+    },
+    "filterFirstDayOfMonth_FirstDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "IsSameCreatedDate_FirstDay:EQ:true",
+        "source": "CompareFirstCreatedDate_FirstDay"
+      }
+    },
+    "Extract_ForecastingQuota": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "QuotaAmount"
+          },
+          {
+            "name": "QuotaOwnerId"
+          },
+          {
+            "name": "PeriodId"
+          },
+          {
+            "name": "ForecastingTypeId"
+          }
+        ],
+        "object": "ForecastingQuota"
+      }
+    },
+    "appendAllForecastingData": {
+      "action": "append",
+      "parameters": {
+        "sources": [
+          "PrepareForecastingItem",
+          "PreparePredictionTrend",
+          "PrepareForecastingQuota",
+          "PrepareForecastingPrediction"
+        ]
+      }
+    },
+    "GenerateAsOfDateColumn_LastDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "RemoveLastCreatedDateColumn_FirstDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "LatestCreatedDate_LastDay",
+            "saqlExpression": "toDate(AsOfDate_FirstDay,\"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "LatestCreatedDate_LastDay",
+            "type": "Date"
+          },
+          {
+            "name": "AsOfDate_LastDay",
+            "saqlExpression": "toDate(AsOfDate_FirstDay,\"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "AsOfDate_LastDay",
+            "type": "Date"
+          }
+        ]
+      }
+    },
+    "CompareFirstCreatedDate_LastDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "GroupItemHistoryPerDay_LastDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "defaultValue": "\"false\"",
+            "name": "IsSameCreatedDate_LastDay",
+            "saqlExpression": "case when LatestCreatedDate_LastDay == FirstCreatedDate_LastDay then \"true\" else \"false\" end",
+            "label": "IsSameCreatedDate_LastDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "Extract_ForecastingItem": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "SFDCtoken": "SFDCtoken",
+        "fields": [
+          {
+            "name": "Id"
+          },
+          {
+            "name": "AmountWithoutManagerAdjustment"
+          },
+          {
+            "name": "ForecastAmount"
+          },
+          {
+            "name": "ForecastingItemCategory"
+          },
+          {
+            "name": "OwnerId"
+          },
+          {
+            "name": "PeriodId"
+          },
+          {
+            "name": "ForecastingTypeId"
+          }
+        ],
+        "object": "ForecastingItem"
+      }
+    },
+    "flatten(ForecastHierarchy)": {
+      "schema": {
+        "objects": [
+          {
+            "label": "flatten(ForecastHierarchy)",
+            "fields": [
+              {
+                "name": "Managers",
+                "label": "Managers",
+                "isSystemField": false
+              },
+              {
+                "name": "ManagerPath",
+                "label": "ManagerPath",
+                "isSystemField": false
+              }
+            ]
+          }
+        ]
+      },
+      "action": "flatten",
+      "parameters": {
+        "include_self_id": false,
+        "self_field": "Id",
+        "multi_field": "Managers",
+        "parent_field": "MgrRole.ForecastUserId",
+        "path_field": "ManagerPath",
+        "source": "join(User,MgrRole)"
+      }
+    },
+    "NormalizeLastDayOfMonth_LastDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "filterOutDaysBeforeHTEnablement_LastDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "LatestCreatedDate_LastDay",
+            "saqlExpression": "toDate(\"3000-01-01\",\"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "LatestCreatedDate_LastDay",
+            "type": "Date"
+          }
+        ]
+      }
+    },
+    "NormalizeForecastAmount": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "RemoveFirstCreatedDateColumn_LastDay",
+        "mergeWithSource": false,
+        "computedFields": [
+          {
+            "name": "Date",
+            "saqlExpression": "toDate(AsOfDate_LastDay, \"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "Date",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "Value",
+            "saqlExpression": "ForecastAmount_hst",
+            "scale": 5,
+            "label": "Value",
+            "type": "Numeric"
+          },
+          {
+            "name": "Type",
+            "saqlExpression": "\"ForecastAmount\"",
+            "label": "Type",
+            "type": "Text"
+          },
+          {
+            "name": "Period_ID",
+            "saqlExpression": "'Parent.PeriodId'",
+            "label": "Period_ID",
+            "type": "Text"
+          },
+          {
+            "name": "ForecastingType_ID",
+            "saqlExpression": "'Parent.ForecastingTypeId'",
+            "label": "ForecastingType_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Owner_ID",
+            "saqlExpression": "'Parent.OwnerId'",
+            "label": "Owner_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Category",
+            "saqlExpression": "'Parent.ForecastingItemCategory'",
+            "label": "Category",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "ValueHigherBound",
+            "saqlExpression": "ForecastAmount_hst",
+            "scale": 5,
+            "label": "ValueHigherBound",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ValueLowerBound",
+            "saqlExpression": "ForecastAmount_hst",
+            "scale": 5,
+            "label": "ValueLowerBound",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "RemoveLastCreatedDateColumn_LastDay": {
+      "action": "sliceDataset",
+      "parameters": {
+        "mode": "drop",
+        "source": "filterLastDayOfMonth_LastDay",
+        "fields": [
+          {
+            "name": "IsSameCreatedDate_LastDay"
+          },
+          {
+            "name": "LastCreatedDate_LastDay"
+          }
+        ]
+      }
+    },
+    "GenerateGroupByColumn_FirstDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "RemoveOriginalAmountColumns_FirstDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "GroupBy_FirstDay",
+            "saqlExpression": "ParentId+\"_\"+AsOfDate_FirstDay",
+            "label": "GroupBy_FirstDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "Filter_ForecastingItem": {
+      "action": "filter",
+      "parameters": {
+        "filter": "ForecastingTypeId:EQ:0Dbf20000017QcTCAU",
+        "source": "Extract_ForecastingItem"
+      }
+    },
+    "CompareLastCreatedDate_LastDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "GenerateLastCreatedDateColumn_LastDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "defaultValue": "\"false\"",
+            "name": "IsSameCreatedDate_LastDay",
+            "saqlExpression": "case when LastCreatedDate_LastDay == AsOfDate_FirstDay then \"true\" else \"false\" end",
+            "label": "IsSameCreatedDate_LastDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "RemoveFirstCreatedDateColumn_FirstDay": {
+      "action": "sliceDataset",
+      "parameters": {
+        "mode": "drop",
+        "source": "filterFirstDayOfMonth_FirstDay",
+        "fields": [
+          {
+            "name": "FirstCreatedDate_FirstDay"
+          },
+          {
+            "name": "IsSameCreatedDate_FirstDay"
+          }
+        ]
+      }
+    },
+    "join(ForecastingPrediction, Period)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "Filter_ForecastingPrediction",
+        "left_key": [
+          "PeriodId"
+        ],
+        "right_select": [
+          "EndDate"
+        ],
+        "right": "Extract_Period",
+        "relationship": "Period",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "Extract_Users": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "filterConditions": [
+          {
+            "field": "ForecastEnabled",
+            "value": "true",
+            "operator": "="
+          }
+        ],
+        "SFDCtoken": "SFDCtoken",
+        "fields": [
+          {
+            "name": "Id"
+          },
+          {
+            "name": "Username"
+          },
+          {
+            "name": "Name"
+          },
+          {
+            "name": "FirstName"
+          },
+          {
+            "name": "LastName"
+          },
+          {
+            "name": "UserRoleId"
+          },
+          {
+            "name": "FullPhotoUrl"
+          },
+          {
+            "name": "SmallPhotoUrl"
+          },
+          {
+            "name": "ForecastEnabled"
+          }
+        ],
+        "object": "User"
+      }
+    },
+    "GroupItemHistoryPerDay_FirstDay": {
+      "action": "computeRelative",
+      "parameters": {
+        "partitionBy": [
+          "GroupBy_FirstDay"
+        ],
+        "orderBy": [
+          {
+            "name": "EarliestCreatedDate_FirstDay",
+            "direction": "desc"
+          }
+        ],
+        "source": "GenerateGroupByColumn_FirstDay",
+        "computedFields": [
+          {
+            "expression": {
+              "sourceField": "EarliestCreatedDate_FirstDay",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "LastCreatedDate_FirstDay",
+            "label": "LastCreatedDate_FirstDay"
+          }
+        ]
+      }
+    },
+    "Extract_ForecastingItemHistory": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "AmountWithoutManagerAdjustment__hst"
+          },
+          {
+            "name": "CreatedDate"
+          },
+          {
+            "name": "ForecastAmount__hst"
+          },
+          {
+            "name": "Id"
+          },
+          {
+            "name": "ParentId"
+          }
+        ],
+        "object": "ForecastingItem__hd"
+      }
+    },
+    "join(ForecastingDataWithFlattenForecastHierarchy)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "appendAllForecastingData",
+        "left_key": [
+          "Owner_ID"
+        ],
+        "right_select": [
+          "Name",
+          "UserRoleId",
+          "Managers"
+        ],
+        "right": "flatten(ForecastHierarchy)",
+        "relationship": "Manager",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "GroupItemHistoryPerDay_LastDay": {
+      "action": "computeRelative",
+      "parameters": {
+        "partitionBy": [
+          "GroupBy_LastDay"
+        ],
+        "orderBy": [
+          {
+            "name": "LatestCreatedDate_LastDay",
+            "direction": "asc"
+          }
+        ],
+        "source": "GenerateGroupByColumn_LastDay",
+        "computedFields": [
+          {
+            "expression": {
+              "sourceField": "LatestCreatedDate_LastDay",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "FirstCreatedDate_LastDay",
+            "label": "FirstCreatedDate_LastDay"
+          }
+        ]
+      }
+    },
+    "Register_ForecastingData": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "SFDCtoken": "SFDCtoken",
+        "rowLevelSecurityFilter": "('Owner_ID' == \"$User.Id\" && ('Type' != \"ForecastAmount\")) || 'Manager.Managers' == \"$User.Id\"",
+        "name": "ForecastingData",
+        "alias": "ForecastingData",
+        "source": "join(ForecastingDataWithFlattenForecastHierarchy)"
+      }
+    },
+    "Extract_ForecastingPrediction": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "Amount"
+          },
+          {
+            "name": "ForecastOwnerId"
+          },
+          {
+            "name": "ForecastingTypeId"
+          },
+          {
+            "name": "PeriodId"
+          },
+          {
+            "name": "AmountHigherBound"
+          },
+          {
+            "name": "AmountLowerBound"
+          }
+        ],
+        "object": "ForecastingPrediction"
+      }
+    },
+    "CompareLastCreatedDate_FirstDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "GroupItemHistoryPerDay_FirstDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "defaultValue": "\"false\"",
+            "name": "IsSameCreatedDate_FirstDay",
+            "saqlExpression": "case when EarliestCreatedDate_FirstDay == LastCreatedDate_FirstDay then \"true\" else \"false\" end",
+            "label": "IsSameCreatedDate_FirstDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "join(ForecastingItem, Period)": {
+      "action": "augment",
+      "parameters": {
+        "right_key": [
+          "Id"
+        ],
+        "left": "Filter_ForecastingItem",
+        "left_key": [
+          "PeriodId"
+        ],
+        "right_select": [
+          "EndDate",
+          "StartDate"
+        ],
+        "right": "Extract_Period",
+        "relationship": "PeriodId",
+        "operation": "LookupSingleValue"
+      }
+    },
+    "CompareFirstCreatedDate_FirstDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "GenerateFirstCreatedDateColumn_FirstDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "defaultValue": "\"false\"",
+            "name": "IsSameCreatedDate_FirstDay",
+            "saqlExpression": "case when CreatedDate == FirstCreatedDate_FirstDay then \"true\" else \"false\" end",
+            "label": "IsSameCreatedDate_FirstDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "NormalizeFirstDayOfMonth_FirstDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "filterOutDaysBeforeHTEnablement_FirstDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "EarliestCreatedDate_FirstDay",
+            "saqlExpression": "toDate(\"1900-01-01 00:00:00\",\"yyyy-MM-dd HH:mm:ss\")",
+            "format": "yyyy-MM-dd HH:mm:ss",
+            "label": "EarliestCreatedDate_FirstDay",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "AmountWithoutManagerAdjustment_hst",
+            "saqlExpression": "0",
+            "scale": 5,
+            "label": "AmountWithoutManagerAdjustment_hst",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ForecastAmount_hst",
+            "saqlExpression": "0",
+            "scale": 5,
+            "label": "ForecastAmount_hst",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "Extract_Period": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "EndDate"
+          },
+          {
+            "name": "Id"
+          },
+          {
+            "name": "FullyQualifiedLabel"
+          },
+          {
+            "name": "StartDate"
+          },
+          {
+            "name": "Type"
+          }
+        ],
+        "object": "Period"
+      }
+    },
+    "append_ForecastingItemHistory_LastDayOfMonth_LastDay": {
+      "action": "append",
+      "parameters": {
+        "sources": [
+          "NormalizeLastDayOfMonth_LastDay",
+          "GenerateAsOfDateColumn_LastDay"
+        ]
+      }
+    },
+    "append_ForecastingItemHistory_FirstDayOfMonth_FirstDay": {
+      "action": "append",
+      "parameters": {
+        "sources": [
+          "GenerateAsOfDateColumn_FirstDay",
+          "NormalizeFirstDayOfMonth_FirstDay"
+        ]
+      }
+    },
+    "Extract_ForecastingPredictionTrend": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "Amount"
+          },
+          {
+            "name": "ForecastingPredictionTrendType"
+          },
+          {
+            "name": "PeriodId"
+          },
+          {
+            "name": "AsOfDate"
+          },
+          {
+            "name": "ForecastingTypeId"
+          },
+          {
+            "name": "ForecastOwnerId"
+          },
+          {
+            "name": "AmountHigherBound"
+          },
+          {
+            "name": "AmountLowerBound"
+          }
+        ],
+        "object": "ForecastingPredictionTrend"
+      }
+    },
+    "Filter_join(ForecastingItemHistory,ForecastingItem,Period)": {
+      "action": "filter",
+      "parameters": {
+        "filter": "Parent.ForecastingTypeId:EQ:0Dbf20000017QcTCAU",
+        "source": "join(ForecastingItemHistory,ForecastingItem,Period)"
+      }
+    },
+    "GenerateFirstCreatedDateColumn_FirstDay": {
+      "action": "computeRelative",
+      "parameters": {
+        "partitionBy": [
+          "ParentId"
+        ],
+        "orderBy": [
+          {
+            "name": "CreatedDate",
+            "direction": "asc"
+          }
+        ],
+        "source": "Filter_join(ForecastingItemHistory,ForecastingItem,Period)",
+        "computedFields": [
+          {
+            "expression": {
+              "sourceField": "Parent.PeriodId.StartDate",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "AsOfDate_FirstDay",
+            "label": "AsOfDate_FirstDay"
+          },
+          {
+            "expression": {
+              "sourceField": "CreatedDate",
+              "default": "current()",
+              "offset": "first()"
+            },
+            "name": "FirstCreatedDate_FirstDay",
+            "label": "FirstCreatedDate_FirstDay"
+          }
+        ]
+      }
+    },
+    "GenerateGroupByColumn_LastDay": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "append_ForecastingItemHistory_LastDayOfMonth_LastDay",
+        "mergeWithSource": true,
+        "computedFields": [
+          {
+            "name": "GroupBy_LastDay",
+            "saqlExpression": "ParentId+\"_\"+AsOfDate_LastDay",
+            "label": "GroupBy_LastDay",
+            "type": "Text"
+          }
+        ]
+      }
+    },
+    "PrepareForecastingQuota": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "joinForecastingQuotaWithPeriod",
+        "mergeWithSource": false,
+        "computedFields": [
+          {
+            "name": "Date",
+            "saqlExpression": "toDate('Period.EndDate', \"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "Date",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "Value",
+            "saqlExpression": "QuotaAmount",
+            "scale": 5,
+            "label": "Value",
+            "type": "Numeric"
+          },
+          {
+            "name": "Type",
+            "saqlExpression": "\"Quota\"",
+            "label": "Type",
+            "type": "Text"
+          },
+          {
+            "name": "Period_ID",
+            "saqlExpression": "PeriodId",
+            "label": "Period_ID",
+            "type": "Text"
+          },
+          {
+            "name": "ForecastingType_ID",
+            "saqlExpression": "ForecastingTypeId",
+            "label": "ForecastingType_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Owner_ID",
+            "saqlExpression": "QuotaOwnerId",
+            "label": "Owner_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Category",
+            "saqlExpression": "\"Quota\"",
+            "label": "Category",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "ValueHigherBound",
+            "saqlExpression": "QuotaAmount",
+            "scale": 5,
+            "label": "ValueHigherBound",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ValueLowerBound",
+            "saqlExpression": "QuotaAmount",
+            "scale": 5,
+            "label": "ValueLowerBound",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "Extract_UserRole": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "fields": [
+          {
+            "name": "Id"
+          },
+          {
+            "name": "ParentRoleId"
+          },
+          {
+            "name": "ForecastUserId"
+          }
+        ],
+        "object": "UserRole"
+      }
+    },
+    "PreparePredictionTrend": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "Filter_ForecastingPredictionTrend",
+        "mergeWithSource": false,
+        "computedFields": [
+          {
+            "name": "Date",
+            "saqlExpression": "toDate(AsOfDate, \"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "Date",
+            "type": "Date"
+          },
+          {
+            "name": "Type",
+            "saqlExpression": "ForecastingPredictionTrendType",
+            "label": "Type",
+            "type": "Text"
+          },
+          {
+            "name": "Period_ID",
+            "saqlExpression": "PeriodId",
+            "label": "Period_ID",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "Value",
+            "saqlExpression": "Amount",
+            "scale": 5,
+            "label": "Value",
+            "type": "Numeric"
+          },
+          {
+            "name": "ForecastingType_ID",
+            "saqlExpression": "ForecastingTypeId",
+            "label": "ForecastingType_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Owner_ID",
+            "saqlExpression": "ForecastOwnerId",
+            "label": "Owner_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Category",
+            "saqlExpression": "ForecastingPredictionTrendType",
+            "label": "Category",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "ValueHigherBound",
+            "saqlExpression": "AmountHigherBound",
+            "scale": 5,
+            "label": "ValueHigherBound",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ValueLowerBound",
+            "saqlExpression": "AmountLowerBound",
+            "scale": 5,
+            "label": "ValueLowerBound",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "filterOutDaysBeforeHTEnablement_LastDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "AsOfDate_LastDay:R:2018-02-05",
+        "source": "RemoveLastCreatedDateColumn_LastDay"
+      }
+    },
+    "NormalizeAmountWithoutManagerAdjustment": {
+      "action": "computeExpression",
+      "parameters": {
+        "source": "RemoveFirstCreatedDateColumn_LastDay",
+        "mergeWithSource": false,
+        "computedFields": [
+          {
+            "name": "Date",
+            "saqlExpression": "toDate(AsOfDate_LastDay, \"yyyy-MM-dd\")",
+            "format": "yyyy-MM-dd",
+            "label": "Date",
+            "type": "Date"
+          },
+          {
+            "precision": 18,
+            "name": "Value",
+            "saqlExpression": "AmountWithoutManagerAdjustment_hst",
+            "scale": 5,
+            "label": "Value",
+            "type": "Numeric"
+          },
+          {
+            "name": "Type",
+            "saqlExpression": "\"AmountWithoutManagerAdjustment\"",
+            "label": "Type",
+            "type": "Text"
+          },
+          {
+            "name": "Period_ID",
+            "saqlExpression": "'Parent.PeriodId'",
+            "label": "Period_ID",
+            "type": "Text"
+          },
+          {
+            "name": "ForecastingType_ID",
+            "saqlExpression": "'Parent.ForecastingTypeId'",
+            "label": "ForecastingType_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Owner_ID",
+            "saqlExpression": "'Parent.OwnerId'",
+            "label": "Owner_ID",
+            "type": "Text"
+          },
+          {
+            "name": "Category",
+            "saqlExpression": "'Parent.ForecastingItemCategory'",
+            "label": "Category",
+            "type": "Text"
+          },
+          {
+            "precision": 18,
+            "name": "ValueHigherBound",
+            "saqlExpression": "AmountWithoutManagerAdjustment_hst",
+            "scale": 5,
+            "label": "ValueHigherBound",
+            "type": "Numeric"
+          },
+          {
+            "precision": 18,
+            "name": "ValueLowerBound",
+            "saqlExpression": "AmountWithoutManagerAdjustment_hst",
+            "scale": 5,
+            "label": "ValueLowerBound",
+            "type": "Numeric"
+          }
+        ]
+      }
+    },
+    "filterOutDaysBeforeHTEnablement_FirstDay": {
+      "action": "filter",
+      "parameters": {
+        "filter": "AsOfDate_FirstDay:R:2018-02-05",
+        "source": "RemoveFirstCreatedDateColumn_FirstDay"
+      }
+    }
+  },
+  "_type": "dataflow",
+  "_lastModifiedBy": {
+    "_type": "user",
+    "name": "Automated Process",
+    "_uid": "005f20000090QinAAE",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "description": "ForecastingAnalytics Dataflow",
+  "MasterLabel": "Einstein Forecasting",
+  "nextRun": "",
+  "WorkflowStatus": "Inactive",
+  "isDeletable": true,
+  "DataflowType": "USER",
+  "name": "DefaultForecastingAnalytics",
+  "_url": "/insights/internal_api/v1.0/esObject/workflow/02Kf2000000pEV7EAM/json",
+  "_uid": "02Kf2000000pEV7EAM"
+}
